@@ -1,5 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
+    <Authors>MCDis</Authors>
     <Product>MimeLut</Product>
     <Description>Mime Lut (dictionary + consts)</Description>
     <Copyright>MCDis 2019</Copyright>
