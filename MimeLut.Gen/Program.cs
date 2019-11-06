@@ -9,7 +9,7 @@ namespace MimeLut.Gen
 {
    class Program
    {
-      private static readonly char[] SymbolsToReplacePropertyName = { '-', '.', '+', '/' };
+      private static readonly char[] SymbolsToReplacePropertyName = { '-', '.', '/' };
       class Gen
       {
          private readonly StringBuilder p_data;
@@ -95,8 +95,13 @@ namespace MimeLut.Gen
             var types = deserializer.Deserialize<MimeType[]>(File.ReadAllText(file));
             foreach (var type in types)
             {
-               if (!(type.Extensions?.Length > 0)) 
+               if(type.Obsolete)
                   continue;
+               if (!(type.Extensions?.Length > 0))
+               {
+                  lut.Add(type.ContentType, type.Extensions);
+                  continue;
+               }
 
                lut.Add(type.ContentType, type.Extensions);
                foreach (var e in type.Extensions)
@@ -170,17 +175,20 @@ namespace MimeLut.Gen
          for (var i = 0; i < _mime.Length; i++)
          {
             var ch = _mime[i];
-            if (SymbolsToReplacePropertyName.Contains(ch))
+            if (SymbolsToReplacePropertyName.Contains(ch) )
             {
                nextIsUpper = true;
                continue;
             }
-
             res[j] = nextIsUpper ? char.ToUpper(ch) : ch;
             nextIsUpper = false;
+
+            if (ch == '+')
+               nextIsUpper = true;
             j++;
          }
-         return new string(res, 0, j);
+
+         return new string(res, 0, j).Replace("+","Plus");
       }
 
       private static bool ParseClassName(string _fullClassname, out string _namespace, out string _classname)
