@@ -80,8 +80,8 @@ namespace MimeLut.Gen
          Console.WriteLine($"Home: {home}");
 
 
-         var lut = new Dictionary<string, string[]>();
-         var extLut = new Dictionary<string, string>();
+         var lut = new Dictionary<string, string[]>(StringComparer.InvariantCultureIgnoreCase);
+         var extLut = new Dictionary<string, string>(StringComparer.InvariantCultureIgnoreCase);
 
          var deserializer = new DeserializerBuilder()
             .WithTagMapping("!ruby/object:MIME::Type", typeof(MimeType))
