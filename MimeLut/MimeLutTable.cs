@@ -606,6 +606,7 @@ namespace MimeLut
 		public static string ApplicationXMobipocketEbook {get;} = "application/x-mobipocket-ebook";
 		public static string ApplicationXMsApplication {get;} = "application/x-ms-application";
 		public static string ApplicationXMsShortcut {get;} = "application/x-ms-shortcut";
+		public static string ApplicationInternetShortcut {get;} = "application/internet-shortcut";
 		public static string ApplicationXMsWmd {get;} = "application/x-ms-wmd";
 		public static string ApplicationXMsWmz {get;} = "application/x-ms-wmz";
 		public static string ApplicationXMsXbap {get;} = "application/x-ms-xbap";
@@ -4642,6 +4643,11 @@ namespace MimeLut
 				case "lnk":
 				{
 					_mime = ApplicationXMsShortcut;
+					return true;
+				}
+				case "url":
+				{
+					_mime = ApplicationInternetShortcut;
 					return true;
 				}
 				case "wmd":

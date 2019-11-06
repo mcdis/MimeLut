@@ -15397,6 +15397,12 @@
   - lnk
   registered: false
 - !ruby/object:MIME::Type
+  content-type: application/internet-shortcut
+  encoding: text
+  extensions:
+  - url
+  registered: false
+- !ruby/object:MIME::Type
   content-type: application/x-ms-wmd
   friendly:
     en: Microsoft Windows Media Player Download Package
