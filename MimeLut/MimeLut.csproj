@@ -4,6 +4,7 @@
     <Description>Mime Lut (dictionary + consts)</Description>
     <Copyright>MCDis 2019</Copyright>
     <Version>1.1.0</Version>
+    <PackageProjectUrl>https://github.com/mcdis/MimeLut</PackageProjectUrl>
     <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
   </PropertyGroup>
 </Project>
