@@ -2,8 +2,8 @@
   <PropertyGroup>
     <Product>MimeLut</Product>
     <Description>Mime Lut (dictionary + consts)</Description>
-    <Copyright>MCDis 2018</Copyright>
-    <Version>1.0.0</Version>
+    <Copyright>MCDis 2019</Copyright>
+    <Version>1.1.0</Version>
     <TargetFrameworks>netstandard1.0;net45</TargetFrameworks>
   </PropertyGroup>
 </Project>

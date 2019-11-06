@@ -2,11 +2,13 @@ namespace MimeLut
 {
 	public static class MimeLutTable
 	{
+		public static string ApplicationAccess {get;} = "application/access";
 		public static string ApplicationAndrewInset {get;} = "application/andrew-inset";
 		public static string ApplicationApplixware {get;} = "application/applixware";
 		public static string ApplicationAtomXml {get;} = "application/atom+xml";
 		public static string ApplicationAtomcatXml {get;} = "application/atomcat+xml";
 		public static string ApplicationAtomsvcXml {get;} = "application/atomsvc+xml";
+		public static string ApplicationBleeper {get;} = "application/bleeper";
 		public static string ApplicationCcxmlXml {get;} = "application/ccxml+xml";
 		public static string ApplicationCdmiCapability {get;} = "application/cdmi-capability";
 		public static string ApplicationCdmiContainer {get;} = "application/cdmi-container";
@@ -15,18 +17,26 @@ namespace MimeLut
 		public static string ApplicationCdmiQueue {get;} = "application/cdmi-queue";
 		public static string ApplicationCuSeeme {get;} = "application/cu-seeme";
 		public static string ApplicationDavmountXml {get;} = "application/davmount+xml";
+		public static string ApplicationDicom {get;} = "application/dicom";
 		public static string ApplicationDocbookXml {get;} = "application/docbook+xml";
 		public static string ApplicationDsscDer {get;} = "application/dssc+der";
 		public static string ApplicationDsscXml {get;} = "application/dssc+xml";
 		public static string ApplicationEcmascript {get;} = "application/ecmascript";
 		public static string ApplicationEmmaXml {get;} = "application/emma+xml";
 		public static string ApplicationEpubZip {get;} = "application/epub+zip";
+		public static string ApplicationExcel {get;} = "application/excel";
 		public static string ApplicationExi {get;} = "application/exi";
+		public static string ApplicationFontSfnt {get;} = "application/font-sfnt";
 		public static string ApplicationFontTdpfr {get;} = "application/font-tdpfr";
+		public static string ApplicationFontWoff {get;} = "application/font-woff";
+		public static string ApplicationFuturesplash {get;} = "application/futuresplash";
 		public static string ApplicationGmlXml {get;} = "application/gml+xml";
 		public static string ApplicationGpxXml {get;} = "application/gpx+xml";
 		public static string ApplicationGxf {get;} = "application/gxf";
+		public static string ApplicationGzip {get;} = "application/gzip";
+		public static string ApplicationHep {get;} = "application/hep";
 		public static string ApplicationHyperstudio {get;} = "application/hyperstudio";
+		public static string ApplicationImagemap {get;} = "application/imagemap";
 		public static string ApplicationInkmlXml {get;} = "application/inkml+xml";
 		public static string ApplicationIpfix {get;} = "application/ipfix";
 		public static string ApplicationJavaArchive {get;} = "application/java-archive";
@@ -36,11 +46,13 @@ namespace MimeLut
 		public static string ApplicationJson {get;} = "application/json";
 		public static string ApplicationJsonmlJson {get;} = "application/jsonml+json";
 		public static string ApplicationLostXml {get;} = "application/lost+xml";
+		public static string ApplicationLotus123 {get;} = "application/lotus-123";
 		public static string ApplicationMacBinhex40 {get;} = "application/mac-binhex40";
 		public static string ApplicationMacCompactpro {get;} = "application/mac-compactpro";
 		public static string ApplicationMadsXml {get;} = "application/mads+xml";
 		public static string ApplicationMarc {get;} = "application/marc";
 		public static string ApplicationMarcxmlXml {get;} = "application/marcxml+xml";
+		public static string ApplicationMathcad {get;} = "application/mathcad";
 		public static string ApplicationMathematica {get;} = "application/mathematica";
 		public static string ApplicationMathmlXml {get;} = "application/mathml+xml";
 		public static string ApplicationMbox {get;} = "application/mbox";
@@ -53,6 +65,7 @@ namespace MimeLut
 		public static string ApplicationMp4 {get;} = "application/mp4";
 		public static string ApplicationMsword {get;} = "application/msword";
 		public static string ApplicationMxf {get;} = "application/mxf";
+		public static string ApplicationNetcdf {get;} = "application/netcdf";
 		public static string ApplicationOctetStream {get;} = "application/octet-stream";
 		public static string ApplicationOda {get;} = "application/oda";
 		public static string ApplicationOebpsPackageXml {get;} = "application/oebps-package+xml";
@@ -76,8 +89,11 @@ namespace MimeLut
 		public static string ApplicationPkixcmp {get;} = "application/pkixcmp";
 		public static string ApplicationPlsXml {get;} = "application/pls+xml";
 		public static string ApplicationPostscript {get;} = "application/postscript";
+		public static string ApplicationPowerpoint {get;} = "application/powerpoint";
 		public static string ApplicationPrsCww {get;} = "application/prs.cww";
+		public static string ApplicationPrsNprend {get;} = "application/prs.nprend";
 		public static string ApplicationPskcXml {get;} = "application/pskc+xml";
+		public static string ApplicationQuicktimeplayer {get;} = "application/quicktimeplayer";
 		public static string ApplicationRdfXml {get;} = "application/rdf+xml";
 		public static string ApplicationReginfoXml {get;} = "application/reginfo+xml";
 		public static string ApplicationRelaxNgCompactSyntax {get;} = "application/relax-ng-compact-syntax";
@@ -98,7 +114,11 @@ namespace MimeLut
 		public static string ApplicationSdp {get;} = "application/sdp";
 		public static string ApplicationSetPaymentInitiation {get;} = "application/set-payment-initiation";
 		public static string ApplicationSetRegistrationInitiation {get;} = "application/set-registration-initiation";
+		public static string ApplicationSgml {get;} = "application/sgml";
+		public static string ApplicationSgmlOpenCatalog {get;} = "application/sgml-open-catalog";
 		public static string ApplicationShfXml {get;} = "application/shf+xml";
+		public static string ApplicationSieve {get;} = "application/sieve";
+		public static string ApplicationSmil {get;} = "application/smil";
 		public static string ApplicationSmilXml {get;} = "application/smil+xml";
 		public static string ApplicationSparqlQuery {get;} = "application/sparql-query";
 		public static string ApplicationSparqlResultsXml {get;} = "application/sparql-results+xml";
@@ -110,11 +130,14 @@ namespace MimeLut
 		public static string ApplicationTeiXml {get;} = "application/tei+xml";
 		public static string ApplicationThraudXml {get;} = "application/thraud+xml";
 		public static string ApplicationTimestampedData {get;} = "application/timestamped-data";
+		public static string ApplicationToolbook {get;} = "application/toolbook";
+		public static string ApplicationVMSBACKUP {get;} = "application/VMSBACKUP";
 		public static string ApplicationVnd3gppPicBwLarge {get;} = "application/vnd.3gpp.pic-bw-large";
 		public static string ApplicationVnd3gppPicBwSmall {get;} = "application/vnd.3gpp.pic-bw-small";
 		public static string ApplicationVnd3gppPicBwVar {get;} = "application/vnd.3gpp.pic-bw-var";
+		public static string ApplicationVnd3gppSms {get;} = "application/vnd.3gpp.sms";
 		public static string ApplicationVnd3gpp2Tcap {get;} = "application/vnd.3gpp2.tcap";
-		public static string ApplicationVnd3mPostItNotes {get;} = "application/vnd.3m.post-it-notes";
+		public static string ApplicationVnd3MPostItNotes {get;} = "application/vnd.3M.Post-it-Notes";
 		public static string ApplicationVndAccpacSimplyAso {get;} = "application/vnd.accpac.simply.aso";
 		public static string ApplicationVndAccpacSimplyImp {get;} = "application/vnd.accpac.simply.imp";
 		public static string ApplicationVndAcucobol {get;} = "application/vnd.acucobol";
@@ -136,6 +159,7 @@ namespace MimeLut
 		public static string ApplicationVndAntixGameComponent {get;} = "application/vnd.antix.game-component";
 		public static string ApplicationVndAppleInstallerXml {get;} = "application/vnd.apple.installer+xml";
 		public static string ApplicationVndAppleMpegurl {get;} = "application/vnd.apple.mpegurl";
+		public static string ApplicationVndApplePkpass {get;} = "application/vnd.apple.pkpass";
 		public static string ApplicationVndAristanetworksSwi {get;} = "application/vnd.aristanetworks.swi";
 		public static string ApplicationVndAstraeaSoftwareIota {get;} = "application/vnd.astraea-software.iota";
 		public static string ApplicationVndAudiograph {get;} = "application/vnd.audiograph";
@@ -161,6 +185,7 @@ namespace MimeLut
 		public static string ApplicationVndCriticaltoolsWbsXml {get;} = "application/vnd.criticaltools.wbs+xml";
 		public static string ApplicationVndCtcPosml {get;} = "application/vnd.ctc-posml";
 		public static string ApplicationVndCupsPpd {get;} = "application/vnd.cups-ppd";
+		public static string ApplicationVndCurl {get;} = "application/vnd.curl";
 		public static string ApplicationVndCurlCar {get;} = "application/vnd.curl.car";
 		public static string ApplicationVndCurlPcurl {get;} = "application/vnd.curl.pcurl";
 		public static string ApplicationVndDart {get;} = "application/vnd.dart";
@@ -191,7 +216,7 @@ namespace MimeLut
 		public static string ApplicationVndFdf {get;} = "application/vnd.fdf";
 		public static string ApplicationVndFdsnMseed {get;} = "application/vnd.fdsn.mseed";
 		public static string ApplicationVndFdsnSeed {get;} = "application/vnd.fdsn.seed";
-		public static string ApplicationVndFlographit {get;} = "application/vnd.flographit";
+		public static string ApplicationVndFloGraphIt {get;} = "application/vnd.FloGraphIt";
 		public static string ApplicationVndFluxtimeClip {get;} = "application/vnd.fluxtime.clip";
 		public static string ApplicationVndFramemaker {get;} = "application/vnd.framemaker";
 		public static string ApplicationVndFrogansFnc {get;} = "application/vnd.frogans.fnc";
@@ -225,17 +250,18 @@ namespace MimeLut
 		public static string ApplicationVndGrooveToolTemplate {get;} = "application/vnd.groove-tool-template";
 		public static string ApplicationVndGrooveVcard {get;} = "application/vnd.groove-vcard";
 		public static string ApplicationVndHalXml {get;} = "application/vnd.hal+xml";
-		public static string ApplicationVndHandheldEntertainmentXml {get;} = "application/vnd.handheld-entertainment+xml";
+		public static string ApplicationVndHandHeldEntertainmentXml {get;} = "application/vnd.HandHeld-Entertainment+xml";
 		public static string ApplicationVndHbci {get;} = "application/vnd.hbci";
 		public static string ApplicationVndHheLessonPlayer {get;} = "application/vnd.hhe.lesson-player";
-		public static string ApplicationVndHpHpgl {get;} = "application/vnd.hp-hpgl";
+		public static string ApplicationVndHpHPGL {get;} = "application/vnd.hp-HPGL";
 		public static string ApplicationVndHpHpid {get;} = "application/vnd.hp-hpid";
 		public static string ApplicationVndHpHps {get;} = "application/vnd.hp-hps";
 		public static string ApplicationVndHpJlyt {get;} = "application/vnd.hp-jlyt";
-		public static string ApplicationVndHpPcl {get;} = "application/vnd.hp-pcl";
-		public static string ApplicationVndHpPclxl {get;} = "application/vnd.hp-pclxl";
+		public static string ApplicationVndHpPCL {get;} = "application/vnd.hp-PCL";
+		public static string ApplicationVndHpPCLXL {get;} = "application/vnd.hp-PCLXL";
 		public static string ApplicationVndHydrostatixSofData {get;} = "application/vnd.hydrostatix.sof-data";
-		public static string ApplicationVndIbmMinipay {get;} = "application/vnd.ibm.minipay";
+		public static string ApplicationVndIbmElectronicMedia {get;} = "application/vnd.ibm.electronic-media";
+		public static string ApplicationVndIbmMiniPay {get;} = "application/vnd.ibm.MiniPay";
 		public static string ApplicationVndIbmModcap {get;} = "application/vnd.ibm.modcap";
 		public static string ApplicationVndIbmRightsManagement {get;} = "application/vnd.ibm.rights-management";
 		public static string ApplicationVndIbmSecureContainer {get;} = "application/vnd.ibm.secure-container";
@@ -267,7 +293,7 @@ namespace MimeLut
 		public static string ApplicationVndKdeKword {get;} = "application/vnd.kde.kword";
 		public static string ApplicationVndKenameaapp {get;} = "application/vnd.kenameaapp";
 		public static string ApplicationVndKidspiration {get;} = "application/vnd.kidspiration";
-		public static string ApplicationVndKinar {get;} = "application/vnd.kinar";
+		public static string ApplicationVndKinar {get;} = "application/vnd.Kinar";
 		public static string ApplicationVndKoan {get;} = "application/vnd.koan";
 		public static string ApplicationVndKodakDescriptor {get;} = "application/vnd.kodak-descriptor";
 		public static string ApplicationVndLasLasXml {get;} = "application/vnd.las.las+xml";
@@ -284,44 +310,46 @@ namespace MimeLut
 		public static string ApplicationVndMcd {get;} = "application/vnd.mcd";
 		public static string ApplicationVndMedcalcdata {get;} = "application/vnd.medcalcdata";
 		public static string ApplicationVndMediastationCdkey {get;} = "application/vnd.mediastation.cdkey";
-		public static string ApplicationVndMfer {get;} = "application/vnd.mfer";
+		public static string ApplicationVndMFER {get;} = "application/vnd.MFER";
 		public static string ApplicationVndMfmp {get;} = "application/vnd.mfmp";
 		public static string ApplicationVndMicrografxFlo {get;} = "application/vnd.micrografx.flo";
 		public static string ApplicationVndMicrografxIgx {get;} = "application/vnd.micrografx.igx";
 		public static string ApplicationVndMif {get;} = "application/vnd.mif";
-		public static string ApplicationVndMobiusDaf {get;} = "application/vnd.mobius.daf";
-		public static string ApplicationVndMobiusDis {get;} = "application/vnd.mobius.dis";
-		public static string ApplicationVndMobiusMbk {get;} = "application/vnd.mobius.mbk";
-		public static string ApplicationVndMobiusMqy {get;} = "application/vnd.mobius.mqy";
-		public static string ApplicationVndMobiusMsl {get;} = "application/vnd.mobius.msl";
-		public static string ApplicationVndMobiusPlc {get;} = "application/vnd.mobius.plc";
-		public static string ApplicationVndMobiusTxf {get;} = "application/vnd.mobius.txf";
+		public static string ApplicationVndMobiusDAF {get;} = "application/vnd.Mobius.DAF";
+		public static string ApplicationVndMobiusDIS {get;} = "application/vnd.Mobius.DIS";
+		public static string ApplicationVndMobiusMBK {get;} = "application/vnd.Mobius.MBK";
+		public static string ApplicationVndMobiusMQY {get;} = "application/vnd.Mobius.MQY";
+		public static string ApplicationVndMobiusMSL {get;} = "application/vnd.Mobius.MSL";
+		public static string ApplicationVndMobiusPLC {get;} = "application/vnd.Mobius.PLC";
+		public static string ApplicationVndMobiusTXF {get;} = "application/vnd.Mobius.TXF";
 		public static string ApplicationVndMophunApplication {get;} = "application/vnd.mophun.application";
 		public static string ApplicationVndMophunCertificate {get;} = "application/vnd.mophun.certificate";
 		public static string ApplicationVndMozillaXulXml {get;} = "application/vnd.mozilla.xul+xml";
 		public static string ApplicationVndMsArtgalry {get;} = "application/vnd.ms-artgalry";
+		public static string ApplicationVndMsAsf {get;} = "application/vnd.ms-asf";
 		public static string ApplicationVndMsCabCompressed {get;} = "application/vnd.ms-cab-compressed";
 		public static string ApplicationVndMsExcel {get;} = "application/vnd.ms-excel";
-		public static string ApplicationVndMsExcelAddinMacroenabled12 {get;} = "application/vnd.ms-excel.addin.macroenabled.12";
-		public static string ApplicationVndMsExcelSheetBinaryMacroenabled12 {get;} = "application/vnd.ms-excel.sheet.binary.macroenabled.12";
-		public static string ApplicationVndMsExcelSheetMacroenabled12 {get;} = "application/vnd.ms-excel.sheet.macroenabled.12";
-		public static string ApplicationVndMsExcelTemplateMacroenabled12 {get;} = "application/vnd.ms-excel.template.macroenabled.12";
+		public static string ApplicationVndMsExcelAddinMacroEnabled12 {get;} = "application/vnd.ms-excel.addin.macroEnabled.12";
+		public static string ApplicationVndMsExcelSheetBinaryMacroEnabled12 {get;} = "application/vnd.ms-excel.sheet.binary.macroEnabled.12";
+		public static string ApplicationVndMsExcelSheetMacroEnabled12 {get;} = "application/vnd.ms-excel.sheet.macroEnabled.12";
+		public static string ApplicationVndMsExcelTemplateMacroEnabled12 {get;} = "application/vnd.ms-excel.template.macroEnabled.12";
 		public static string ApplicationVndMsFontobject {get;} = "application/vnd.ms-fontobject";
 		public static string ApplicationVndMsHtmlhelp {get;} = "application/vnd.ms-htmlhelp";
 		public static string ApplicationVndMsIms {get;} = "application/vnd.ms-ims";
 		public static string ApplicationVndMsLrm {get;} = "application/vnd.ms-lrm";
 		public static string ApplicationVndMsOfficetheme {get;} = "application/vnd.ms-officetheme";
+		public static string ApplicationVndMsOutlook {get;} = "application/vnd.ms-outlook";
 		public static string ApplicationVndMsPkiSeccat {get;} = "application/vnd.ms-pki.seccat";
 		public static string ApplicationVndMsPkiStl {get;} = "application/vnd.ms-pki.stl";
 		public static string ApplicationVndMsPowerpoint {get;} = "application/vnd.ms-powerpoint";
-		public static string ApplicationVndMsPowerpointAddinMacroenabled12 {get;} = "application/vnd.ms-powerpoint.addin.macroenabled.12";
-		public static string ApplicationVndMsPowerpointPresentationMacroenabled12 {get;} = "application/vnd.ms-powerpoint.presentation.macroenabled.12";
-		public static string ApplicationVndMsPowerpointSlideMacroenabled12 {get;} = "application/vnd.ms-powerpoint.slide.macroenabled.12";
-		public static string ApplicationVndMsPowerpointSlideshowMacroenabled12 {get;} = "application/vnd.ms-powerpoint.slideshow.macroenabled.12";
-		public static string ApplicationVndMsPowerpointTemplateMacroenabled12 {get;} = "application/vnd.ms-powerpoint.template.macroenabled.12";
+		public static string ApplicationVndMsPowerpointAddinMacroEnabled12 {get;} = "application/vnd.ms-powerpoint.addin.macroEnabled.12";
+		public static string ApplicationVndMsPowerpointPresentationMacroEnabled12 {get;} = "application/vnd.ms-powerpoint.presentation.macroEnabled.12";
+		public static string ApplicationVndMsPowerpointSlideMacroEnabled12 {get;} = "application/vnd.ms-powerpoint.slide.macroEnabled.12";
+		public static string ApplicationVndMsPowerpointSlideshowMacroEnabled12 {get;} = "application/vnd.ms-powerpoint.slideshow.macroEnabled.12";
+		public static string ApplicationVndMsPowerpointTemplateMacroEnabled12 {get;} = "application/vnd.ms-powerpoint.template.macroEnabled.12";
 		public static string ApplicationVndMsProject {get;} = "application/vnd.ms-project";
-		public static string ApplicationVndMsWordDocumentMacroenabled12 {get;} = "application/vnd.ms-word.document.macroenabled.12";
-		public static string ApplicationVndMsWordTemplateMacroenabled12 {get;} = "application/vnd.ms-word.template.macroenabled.12";
+		public static string ApplicationVndMsWordDocumentMacroEnabled12 {get;} = "application/vnd.ms-word.document.macroEnabled.12";
+		public static string ApplicationVndMsWordTemplateMacroEnabled12 {get;} = "application/vnd.ms-word.template.macroEnabled.12";
 		public static string ApplicationVndMsWorks {get;} = "application/vnd.ms-works";
 		public static string ApplicationVndMsWpl {get;} = "application/vnd.ms-wpl";
 		public static string ApplicationVndMsXpsdocument {get;} = "application/vnd.ms-xpsdocument";
@@ -329,6 +357,7 @@ namespace MimeLut
 		public static string ApplicationVndMusician {get;} = "application/vnd.musician";
 		public static string ApplicationVndMuveeStyle {get;} = "application/vnd.muvee.style";
 		public static string ApplicationVndMynfc {get;} = "application/vnd.mynfc";
+		public static string ApplicationVndNervana {get;} = "application/vnd.nervana";
 		public static string ApplicationVndNeurolanguageNlu {get;} = "application/vnd.neurolanguage.nlu";
 		public static string ApplicationVndNitf {get;} = "application/vnd.nitf";
 		public static string ApplicationVndNoblenetDirectory {get;} = "application/vnd.noblenet-directory";
@@ -338,9 +367,9 @@ namespace MimeLut
 		public static string ApplicationVndNokiaNGageSymbianInstall {get;} = "application/vnd.nokia.n-gage.symbian.install";
 		public static string ApplicationVndNokiaRadioPreset {get;} = "application/vnd.nokia.radio-preset";
 		public static string ApplicationVndNokiaRadioPresets {get;} = "application/vnd.nokia.radio-presets";
-		public static string ApplicationVndNovadigmEdm {get;} = "application/vnd.novadigm.edm";
-		public static string ApplicationVndNovadigmEdx {get;} = "application/vnd.novadigm.edx";
-		public static string ApplicationVndNovadigmExt {get;} = "application/vnd.novadigm.ext";
+		public static string ApplicationVndNovadigmEDM {get;} = "application/vnd.novadigm.EDM";
+		public static string ApplicationVndNovadigmEDX {get;} = "application/vnd.novadigm.EDX";
+		public static string ApplicationVndNovadigmEXT {get;} = "application/vnd.novadigm.EXT";
 		public static string ApplicationVndOasisOpendocumentChart {get;} = "application/vnd.oasis.opendocument.chart";
 		public static string ApplicationVndOasisOpendocumentChartTemplate {get;} = "application/vnd.oasis.opendocument.chart-template";
 		public static string ApplicationVndOasisOpendocumentDatabase {get;} = "application/vnd.oasis.opendocument.database";
@@ -384,7 +413,7 @@ namespace MimeLut
 		public static string ApplicationVndProteusMagazine {get;} = "application/vnd.proteus.magazine";
 		public static string ApplicationVndPublishareDeltaTree {get;} = "application/vnd.publishare-delta-tree";
 		public static string ApplicationVndPviPtid1 {get;} = "application/vnd.pvi.ptid1";
-		public static string ApplicationVndQuarkQuarkxpress {get;} = "application/vnd.quark.quarkxpress";
+		public static string ApplicationVndQuarkQuarkXPress {get;} = "application/vnd.Quark.QuarkXPress";
 		public static string ApplicationVndRealvncBed {get;} = "application/vnd.realvnc.bed";
 		public static string ApplicationVndRecordareMusicxml {get;} = "application/vnd.recordare.musicxml";
 		public static string ApplicationVndRecordareMusicxmlXml {get;} = "application/vnd.recordare.musicxml+xml";
@@ -394,6 +423,13 @@ namespace MimeLut
 		public static string ApplicationVndRnRealmediaVbr {get;} = "application/vnd.rn-realmedia-vbr";
 		public static string ApplicationVndRoute66Link66Xml {get;} = "application/vnd.route66.link66+xml";
 		public static string ApplicationVndSailingtrackerTrack {get;} = "application/vnd.sailingtracker.track";
+		public static string ApplicationVndSealedDoc {get;} = "application/vnd.sealed.doc";
+		public static string ApplicationVndSealedEml {get;} = "application/vnd.sealed.eml";
+		public static string ApplicationVndSealedMht {get;} = "application/vnd.sealed.mht";
+		public static string ApplicationVndSealedPpt {get;} = "application/vnd.sealed.ppt";
+		public static string ApplicationVndSealedXls {get;} = "application/vnd.sealed.xls";
+		public static string ApplicationVndSealedmediaSoftsealHtml {get;} = "application/vnd.sealedmedia.softseal.html";
+		public static string ApplicationVndSealedmediaSoftsealPdf {get;} = "application/vnd.sealedmedia.softseal.pdf";
 		public static string ApplicationVndSeemail {get;} = "application/vnd.seemail";
 		public static string ApplicationVndSema {get;} = "application/vnd.sema";
 		public static string ApplicationVndSemd {get;} = "application/vnd.semd";
@@ -402,13 +438,14 @@ namespace MimeLut
 		public static string ApplicationVndShanaInformedFormtemplate {get;} = "application/vnd.shana.informed.formtemplate";
 		public static string ApplicationVndShanaInformedInterchange {get;} = "application/vnd.shana.informed.interchange";
 		public static string ApplicationVndShanaInformedPackage {get;} = "application/vnd.shana.informed.package";
-		public static string ApplicationVndSimtechMindmapper {get;} = "application/vnd.simtech-mindmapper";
+		public static string ApplicationVndSimTechMindMapper {get;} = "application/vnd.SimTech-MindMapper";
 		public static string ApplicationVndSmaf {get;} = "application/vnd.smaf";
 		public static string ApplicationVndSmartTeacher {get;} = "application/vnd.smart.teacher";
 		public static string ApplicationVndSolentSdkmXml {get;} = "application/vnd.solent.sdkm+xml";
 		public static string ApplicationVndSpotfireDxp {get;} = "application/vnd.spotfire.dxp";
 		public static string ApplicationVndSpotfireSfs {get;} = "application/vnd.spotfire.sfs";
 		public static string ApplicationVndStardivisionCalc {get;} = "application/vnd.stardivision.calc";
+		public static string ApplicationVndStardivisionChart {get;} = "application/vnd.stardivision.chart";
 		public static string ApplicationVndStardivisionDraw {get;} = "application/vnd.stardivision.draw";
 		public static string ApplicationVndStardivisionImpress {get;} = "application/vnd.stardivision.impress";
 		public static string ApplicationVndStardivisionMath {get;} = "application/vnd.stardivision.math";
@@ -444,9 +481,12 @@ namespace MimeLut
 		public static string ApplicationVndUnity {get;} = "application/vnd.unity";
 		public static string ApplicationVndUomlXml {get;} = "application/vnd.uoml+xml";
 		public static string ApplicationVndVcx {get;} = "application/vnd.vcx";
+		public static string ApplicationVndVidsoftVidconference {get;} = "application/vnd.vidsoft.vidconference";
 		public static string ApplicationVndVisio {get;} = "application/vnd.visio";
 		public static string ApplicationVndVisionary {get;} = "application/vnd.visionary";
 		public static string ApplicationVndVsf {get;} = "application/vnd.vsf";
+		public static string ApplicationVndWapSic {get;} = "application/vnd.wap.sic";
+		public static string ApplicationVndWapSlc {get;} = "application/vnd.wap.slc";
 		public static string ApplicationVndWapWbxml {get;} = "application/vnd.wap.wbxml";
 		public static string ApplicationVndWapWmlc {get;} = "application/vnd.wap.wmlc";
 		public static string ApplicationVndWapWmlscriptc {get;} = "application/vnd.wap.wmlscriptc";
@@ -455,6 +495,7 @@ namespace MimeLut
 		public static string ApplicationVndWordperfect {get;} = "application/vnd.wordperfect";
 		public static string ApplicationVndWqd {get;} = "application/vnd.wqd";
 		public static string ApplicationVndWtStf {get;} = "application/vnd.wt.stf";
+		public static string ApplicationVndWvCspWbxml {get;} = "application/vnd.wv.csp+wbxml";
 		public static string ApplicationVndXara {get;} = "application/vnd.xara";
 		public static string ApplicationVndXfdl {get;} = "application/vnd.xfdl";
 		public static string ApplicationVndYamahaHvDic {get;} = "application/vnd.yamaha.hv-dic";
@@ -468,12 +509,21 @@ namespace MimeLut
 		public static string ApplicationVndZul {get;} = "application/vnd.zul";
 		public static string ApplicationVndZzazzDeckXml {get;} = "application/vnd.zzazz.deck+xml";
 		public static string ApplicationVoicexmlXml {get;} = "application/voicexml+xml";
+		public static string ApplicationWasm {get;} = "application/wasm";
+		public static string ApplicationWatcherinfoXml {get;} = "application/watcherinfo+xml";
 		public static string ApplicationWidget {get;} = "application/widget";
 		public static string ApplicationWinhlp {get;} = "application/winhlp";
+		public static string ApplicationWord {get;} = "application/word";
+		public static string ApplicationWordperfect {get;} = "application/wordperfect";
+		public static string ApplicationWordperfect51 {get;} = "application/wordperfect5.1";
+		public static string ApplicationWordperfect61 {get;} = "application/wordperfect6.1";
+		public static string ApplicationWordperfectd {get;} = "application/wordperfectd";
 		public static string ApplicationWsdlXml {get;} = "application/wsdl+xml";
 		public static string ApplicationWspolicyXml {get;} = "application/wspolicy+xml";
+		public static string ApplicationX123 {get;} = "application/x-123";
 		public static string ApplicationX7zCompressed {get;} = "application/x-7z-compressed";
 		public static string ApplicationXAbiword {get;} = "application/x-abiword";
+		public static string ApplicationXAccess {get;} = "application/x-access";
 		public static string ApplicationXAceCompressed {get;} = "application/x-ace-compressed";
 		public static string ApplicationXAppleDiskimage {get;} = "application/x-apple-diskimage";
 		public static string ApplicationXAuthorwareBin {get;} = "application/x-authorware-bin";
@@ -481,6 +531,7 @@ namespace MimeLut
 		public static string ApplicationXAuthorwareSeg {get;} = "application/x-authorware-seg";
 		public static string ApplicationXBcpio {get;} = "application/x-bcpio";
 		public static string ApplicationXBittorrent {get;} = "application/x-bittorrent";
+		public static string ApplicationXBleeper {get;} = "application/x-bleeper";
 		public static string ApplicationXBlorb {get;} = "application/x-blorb";
 		public static string ApplicationXBzip {get;} = "application/x-bzip";
 		public static string ApplicationXBzip2 {get;} = "application/x-bzip2";
@@ -489,9 +540,13 @@ namespace MimeLut
 		public static string ApplicationXCfsCompressed {get;} = "application/x-cfs-compressed";
 		public static string ApplicationXChat {get;} = "application/x-chat";
 		public static string ApplicationXChessPgn {get;} = "application/x-chess-pgn";
+		public static string ApplicationXChromeExtension {get;} = "application/x-chrome-extension";
+		public static string ApplicationXCompress {get;} = "application/x-compress";
+		public static string ApplicationXCompressed {get;} = "application/x-compressed";
 		public static string ApplicationXConference {get;} = "application/x-conference";
 		public static string ApplicationXCpio {get;} = "application/x-cpio";
 		public static string ApplicationXCsh {get;} = "application/x-csh";
+		public static string ApplicationXCuSeeme {get;} = "application/x-cu-seeme";
 		public static string ApplicationXDebianPackage {get;} = "application/x-debian-package";
 		public static string ApplicationXDgcCompressed {get;} = "application/x-dgc-compressed";
 		public static string ApplicationXDirector {get;} = "application/x-director";
@@ -505,8 +560,12 @@ namespace MimeLut
 		public static string ApplicationXFontBdf {get;} = "application/x-font-bdf";
 		public static string ApplicationXFontGhostscript {get;} = "application/x-font-ghostscript";
 		public static string ApplicationXFontLinuxPsf {get;} = "application/x-font-linux-psf";
+		public static string ApplicationXFontOpentype {get;} = "application/x-font-opentype";
+		public static string ApplicationXFontOtf {get;} = "application/x-font-otf";
 		public static string ApplicationXFontPcf {get;} = "application/x-font-pcf";
 		public static string ApplicationXFontSnf {get;} = "application/x-font-snf";
+		public static string ApplicationXFontTruetype {get;} = "application/x-font-truetype";
+		public static string ApplicationXFontTtf {get;} = "application/x-font-ttf";
 		public static string ApplicationXFontType1 {get;} = "application/x-font-type1";
 		public static string ApplicationXFreearc {get;} = "application/x-freearc";
 		public static string ApplicationXFuturesplash {get;} = "application/x-futuresplash";
@@ -515,13 +574,35 @@ namespace MimeLut
 		public static string ApplicationXGnumeric {get;} = "application/x-gnumeric";
 		public static string ApplicationXGrampsXml {get;} = "application/x-gramps-xml";
 		public static string ApplicationXGtar {get;} = "application/x-gtar";
+		public static string ApplicationXGzip {get;} = "application/x-gzip";
 		public static string ApplicationXHdf {get;} = "application/x-hdf";
+		public static string ApplicationXHep {get;} = "application/x-hep";
+		public static string ApplicationXHtmlRuby {get;} = "application/x-html+ruby";
+		public static string ApplicationXHttpdPhp {get;} = "application/x-httpd-php";
+		public static string ApplicationXIbooksZip {get;} = "application/x-ibooks+zip";
+		public static string ApplicationXIca {get;} = "application/x-ica";
+		public static string ApplicationXImagemap {get;} = "application/x-imagemap";
 		public static string ApplicationXInstallInstructions {get;} = "application/x-install-instructions";
 		public static string ApplicationXIso9660Image {get;} = "application/x-iso9660-image";
+		public static string ApplicationXIworkKeynoteSffkey {get;} = "application/x-iwork-keynote-sffkey";
+		public static string ApplicationXIworkNumbersSffnumbers {get;} = "application/x-iwork-numbers-sffnumbers";
+		public static string ApplicationXIworkPagesSffpages {get;} = "application/x-iwork-pages-sffpages";
+		public static string ApplicationXJavaArchive {get;} = "application/x-java-archive";
 		public static string ApplicationXJavaJnlpFile {get;} = "application/x-java-jnlp-file";
+		public static string ApplicationXJavaSerializedObject {get;} = "application/x-java-serialized-object";
+		public static string ApplicationXJavaVm {get;} = "application/x-java-vm";
+		public static string ApplicationXJavascript {get;} = "application/x-javascript";
+		public static string ApplicationXKoan {get;} = "application/x-koan";
 		public static string ApplicationXLatex {get;} = "application/x-latex";
+		public static string ApplicationXLotus123 {get;} = "application/x-lotus-123";
 		public static string ApplicationXLzhCompressed {get;} = "application/x-lzh-compressed";
+		public static string ApplicationXMac {get;} = "application/x-mac";
+		public static string ApplicationXMacCompactpro {get;} = "application/x-mac-compactpro";
+		public static string ApplicationXMacbase64 {get;} = "application/x-macbase64";
+		public static string ApplicationXMaker {get;} = "application/x-maker";
+		public static string ApplicationXMathcad {get;} = "application/x-mathcad";
 		public static string ApplicationXMie {get;} = "application/x-mie";
+		public static string ApplicationXMif {get;} = "application/x-mif";
 		public static string ApplicationXMobipocketEbook {get;} = "application/x-mobipocket-ebook";
 		public static string ApplicationXMsApplication {get;} = "application/x-ms-application";
 		public static string ApplicationXMsShortcut {get;} = "application/x-ms-shortcut";
@@ -532,6 +613,7 @@ namespace MimeLut
 		public static string ApplicationXMsbinder {get;} = "application/x-msbinder";
 		public static string ApplicationXMscardfile {get;} = "application/x-mscardfile";
 		public static string ApplicationXMsclip {get;} = "application/x-msclip";
+		public static string ApplicationXMsdosProgram {get;} = "application/x-msdos-program";
 		public static string ApplicationXMsdownload {get;} = "application/x-msdownload";
 		public static string ApplicationXMsmediaview {get;} = "application/x-msmediaview";
 		public static string ApplicationXMsmetafile {get;} = "application/x-msmetafile";
@@ -539,18 +621,28 @@ namespace MimeLut
 		public static string ApplicationXMspublisher {get;} = "application/x-mspublisher";
 		public static string ApplicationXMsschedule {get;} = "application/x-msschedule";
 		public static string ApplicationXMsterminal {get;} = "application/x-msterminal";
+		public static string ApplicationXMsword {get;} = "application/x-msword";
 		public static string ApplicationXMswrite {get;} = "application/x-mswrite";
 		public static string ApplicationXNetcdf {get;} = "application/x-netcdf";
+		public static string ApplicationXNsProxyAutoconfig {get;} = "application/x-ns-proxy-autoconfig";
 		public static string ApplicationXNzb {get;} = "application/x-nzb";
+		public static string ApplicationXOperaExtension {get;} = "application/x-opera-extension";
+		public static string ApplicationXPagemaker {get;} = "application/x-pagemaker";
+		public static string ApplicationXPerl {get;} = "application/x-perl";
 		public static string ApplicationXPkcs12 {get;} = "application/x-pkcs12";
 		public static string ApplicationXPkcs7Certificates {get;} = "application/x-pkcs7-certificates";
 		public static string ApplicationXPkcs7Certreqresp {get;} = "application/x-pkcs7-certreqresp";
+		public static string ApplicationXPython {get;} = "application/x-python";
+		public static string ApplicationXQuicktimeplayer {get;} = "application/x-quicktimeplayer";
 		public static string ApplicationXRarCompressed {get;} = "application/x-rar-compressed";
 		public static string ApplicationXResearchInfoSystems {get;} = "application/x-research-info-systems";
+		public static string ApplicationXRtf {get;} = "application/x-rtf";
+		public static string ApplicationXRuby {get;} = "application/x-ruby";
 		public static string ApplicationXSh {get;} = "application/x-sh";
 		public static string ApplicationXShar {get;} = "application/x-shar";
 		public static string ApplicationXShockwaveFlash {get;} = "application/x-shockwave-flash";
 		public static string ApplicationXSilverlightApp {get;} = "application/x-silverlight-app";
+		public static string ApplicationXSpss {get;} = "application/x-spss";
 		public static string ApplicationXSql {get;} = "application/x-sql";
 		public static string ApplicationXStuffit {get;} = "application/x-stuffit";
 		public static string ApplicationXStuffitx {get;} = "application/x-stuffitx";
@@ -565,8 +657,20 @@ namespace MimeLut
 		public static string ApplicationXTexTfm {get;} = "application/x-tex-tfm";
 		public static string ApplicationXTexinfo {get;} = "application/x-texinfo";
 		public static string ApplicationXTgif {get;} = "application/x-tgif";
+		public static string ApplicationXToolbook {get;} = "application/x-toolbook";
+		public static string ApplicationXTroff {get;} = "application/x-troff";
+		public static string ApplicationXTroffMan {get;} = "application/x-troff-man";
+		public static string ApplicationXTroffMe {get;} = "application/x-troff-me";
+		public static string ApplicationXTroffMs {get;} = "application/x-troff-ms";
 		public static string ApplicationXUstar {get;} = "application/x-ustar";
+		public static string ApplicationXVMSBACKUP {get;} = "application/x-VMSBACKUP";
 		public static string ApplicationXWaisSource {get;} = "application/x-wais-source";
+		public static string ApplicationXWebAppManifestJson {get;} = "application/x-web-app-manifest+json";
+		public static string ApplicationXWingz {get;} = "application/x-Wingz";
+		public static string ApplicationXWord {get;} = "application/x-word";
+		public static string ApplicationXWordperfect {get;} = "application/x-wordperfect";
+		public static string ApplicationXWordperfect61 {get;} = "application/x-wordperfect6.1";
+		public static string ApplicationXWordperfectd {get;} = "application/x-wordperfectd";
 		public static string ApplicationXX509CaCert {get;} = "application/x-x509-ca-cert";
 		public static string ApplicationXXfig {get;} = "application/x-xfig";
 		public static string ApplicationXXliffXml {get;} = "application/x-xliff+xml";
@@ -588,35 +692,49 @@ namespace MimeLut
 		public static string ApplicationYinXml {get;} = "application/yin+xml";
 		public static string ApplicationZip {get;} = "application/zip";
 		public static string AudioAdpcm {get;} = "audio/adpcm";
+		public static string AudioAMR {get;} = "audio/AMR";
+		public static string AudioAMRWB {get;} = "audio/AMR-WB";
 		public static string AudioBasic {get;} = "audio/basic";
+		public static string AudioEVRC {get;} = "audio/EVRC";
+		public static string AudioL16 {get;} = "audio/L16";
 		public static string AudioMidi {get;} = "audio/midi";
 		public static string AudioMp4 {get;} = "audio/mp4";
+		public static string AudioMP4ALATM {get;} = "audio/MP4A-LATM";
 		public static string AudioMpeg {get;} = "audio/mpeg";
 		public static string AudioOgg {get;} = "audio/ogg";
 		public static string AudioS3m {get;} = "audio/s3m";
 		public static string AudioSilk {get;} = "audio/silk";
+		public static string AudioSMV {get;} = "audio/SMV";
 		public static string AudioVndDeceAudio {get;} = "audio/vnd.dece.audio";
 		public static string AudioVndDigitalWinds {get;} = "audio/vnd.digital-winds";
 		public static string AudioVndDra {get;} = "audio/vnd.dra";
 		public static string AudioVndDts {get;} = "audio/vnd.dts";
 		public static string AudioVndDtsHd {get;} = "audio/vnd.dts.hd";
+		public static string AudioVndEveradPlj {get;} = "audio/vnd.everad.plj";
 		public static string AudioVndLucentVoice {get;} = "audio/vnd.lucent.voice";
 		public static string AudioVndMsPlayreadyMediaPya {get;} = "audio/vnd.ms-playready.media.pya";
+		public static string AudioVndNokiaMobileXmf {get;} = "audio/vnd.nokia.mobile-xmf";
+		public static string AudioVndNortelVbk {get;} = "audio/vnd.nortel.vbk";
 		public static string AudioVndNueraEcelp4800 {get;} = "audio/vnd.nuera.ecelp4800";
 		public static string AudioVndNueraEcelp7470 {get;} = "audio/vnd.nuera.ecelp7470";
 		public static string AudioVndNueraEcelp9600 {get;} = "audio/vnd.nuera.ecelp9600";
+		public static string AudioVndQcelp {get;} = "audio/vnd.qcelp";
 		public static string AudioVndRip {get;} = "audio/vnd.rip";
+		public static string AudioVndSealedmediaSoftsealMpeg {get;} = "audio/vnd.sealedmedia.softseal.mpeg";
 		public static string AudioWebm {get;} = "audio/webm";
 		public static string AudioXAac {get;} = "audio/x-aac";
 		public static string AudioXAiff {get;} = "audio/x-aiff";
 		public static string AudioXCaf {get;} = "audio/x-caf";
 		public static string AudioXFlac {get;} = "audio/x-flac";
 		public static string AudioXMatroska {get;} = "audio/x-matroska";
+		public static string AudioXMidi {get;} = "audio/x-midi";
 		public static string AudioXMpegurl {get;} = "audio/x-mpegurl";
 		public static string AudioXMsWax {get;} = "audio/x-ms-wax";
 		public static string AudioXMsWma {get;} = "audio/x-ms-wma";
+		public static string AudioXMsWmv {get;} = "audio/x-ms-wmv";
 		public static string AudioXPnRealaudio {get;} = "audio/x-pn-realaudio";
 		public static string AudioXPnRealaudioPlugin {get;} = "audio/x-pn-realaudio-plugin";
+		public static string AudioXRealaudio {get;} = "audio/x-realaudio";
 		public static string AudioXWav {get;} = "audio/x-wav";
 		public static string AudioXm {get;} = "audio/xm";
 		public static string ChemicalXCdx {get;} = "chemical/x-cdx";
@@ -624,7 +742,13 @@ namespace MimeLut
 		public static string ChemicalXCmdf {get;} = "chemical/x-cmdf";
 		public static string ChemicalXCml {get;} = "chemical/x-cml";
 		public static string ChemicalXCsml {get;} = "chemical/x-csml";
+		public static string ChemicalXPdb {get;} = "chemical/x-pdb";
 		public static string ChemicalXXyz {get;} = "chemical/x-xyz";
+		public static string XChemicalXPdb {get;} = "x-chemical/x-pdb";
+		public static string XChemicalXXyz {get;} = "x-chemical/x-xyz";
+		public static string XConferenceXCooltalk {get;} = "x-conference/x-cooltalk";
+		public static string DrawingDwf {get;} = "drawing/dwf";
+		public static string XDrawingDwf {get;} = "x-drawing/dwf";
 		public static string FontCollection {get;} = "font/collection";
 		public static string FontOtf {get;} = "font/otf";
 		public static string FontTtf {get;} = "font/ttf";
@@ -635,15 +759,20 @@ namespace MimeLut
 		public static string ImageG3fax {get;} = "image/g3fax";
 		public static string ImageGif {get;} = "image/gif";
 		public static string ImageIef {get;} = "image/ief";
+		public static string ImageJp2 {get;} = "image/jp2";
 		public static string ImageJpeg {get;} = "image/jpeg";
+		public static string ImageJpm {get;} = "image/jpm";
+		public static string ImageJpx {get;} = "image/jpx";
 		public static string ImageKtx {get;} = "image/ktx";
 		public static string ImagePng {get;} = "image/png";
 		public static string ImagePrsBtif {get;} = "image/prs.btif";
 		public static string ImageSgi {get;} = "image/sgi";
 		public static string ImageSvgXml {get;} = "image/svg+xml";
+		public static string ImageTarga {get;} = "image/targa";
 		public static string ImageTiff {get;} = "image/tiff";
 		public static string ImageVndAdobePhotoshop {get;} = "image/vnd.adobe.photoshop";
 		public static string ImageVndDeceGraphic {get;} = "image/vnd.dece.graphic";
+		public static string ImageVndDgn {get;} = "image/vnd.dgn";
 		public static string ImageVndDjvu {get;} = "image/vnd.djvu";
 		public static string ImageVndDvbSubtitle {get;} = "image/vnd.dvb.subtitle";
 		public static string ImageVndDwg {get;} = "image/vnd.dwg";
@@ -653,6 +782,8 @@ namespace MimeLut
 		public static string ImageVndFst {get;} = "image/vnd.fst";
 		public static string ImageVndFujixeroxEdmicsMmr {get;} = "image/vnd.fujixerox.edmics-mmr";
 		public static string ImageVndFujixeroxEdmicsRlc {get;} = "image/vnd.fujixerox.edmics-rlc";
+		public static string ImageVndGlobalgraphicsPgb {get;} = "image/vnd.globalgraphics.pgb";
+		public static string ImageVndMicrosoftIcon {get;} = "image/vnd.microsoft.icon";
 		public static string ImageVndMsModi {get;} = "image/vnd.ms-modi";
 		public static string ImageVndMsPhoto {get;} = "image/vnd.ms-photo";
 		public static string ImageVndNetFpx {get;} = "image/vnd.net-fpx";
@@ -660,11 +791,16 @@ namespace MimeLut
 		public static string ImageVndXiff {get;} = "image/vnd.xiff";
 		public static string ImageWebp {get;} = "image/webp";
 		public static string ImageX3ds {get;} = "image/x-3ds";
+		public static string ImageXBmp {get;} = "image/x-bmp";
 		public static string ImageXCmuRaster {get;} = "image/x-cmu-raster";
 		public static string ImageXCmx {get;} = "image/x-cmx";
+		public static string ImageXCompressedXcf {get;} = "image/x-compressed-xcf";
 		public static string ImageXFreehand {get;} = "image/x-freehand";
+		public static string ImageXHasselblad3fr {get;} = "image/x-hasselblad-3fr";
 		public static string ImageXIcon {get;} = "image/x-icon";
 		public static string ImageXMrsidImage {get;} = "image/x-mrsid-image";
+		public static string ImageXMsBmp {get;} = "image/x-ms-bmp";
+		public static string ImageXPaintshoppro {get;} = "image/x-paintshoppro";
 		public static string ImageXPcx {get;} = "image/x-pcx";
 		public static string ImageXPict {get;} = "image/x-pict";
 		public static string ImageXPortableAnymap {get;} = "image/x-portable-anymap";
@@ -672,8 +808,12 @@ namespace MimeLut
 		public static string ImageXPortableGraymap {get;} = "image/x-portable-graymap";
 		public static string ImageXPortablePixmap {get;} = "image/x-portable-pixmap";
 		public static string ImageXRgb {get;} = "image/x-rgb";
+		public static string ImageXTarga {get;} = "image/x-targa";
 		public static string ImageXTga {get;} = "image/x-tga";
+		public static string ImageXVndDgn {get;} = "image/x-vnd.dgn";
 		public static string ImageXXbitmap {get;} = "image/x-xbitmap";
+		public static string ImageXXbm {get;} = "image/x-xbm";
+		public static string ImageXXcf {get;} = "image/x-xcf";
 		public static string ImageXXpixmap {get;} = "image/x-xpixmap";
 		public static string ImageXXwindowdump {get;} = "image/x-xwindowdump";
 		public static string MessageRfc822 {get;} = "message/rfc822";
@@ -684,6 +824,8 @@ namespace MimeLut
 		public static string ModelVndGdl {get;} = "model/vnd.gdl";
 		public static string ModelVndGtw {get;} = "model/vnd.gtw";
 		public static string ModelVndMts {get;} = "model/vnd.mts";
+		public static string ModelVndParasolidTransmitBinary {get;} = "model/vnd.parasolid.transmit.binary";
+		public static string ModelVndParasolidTransmitText {get;} = "model/vnd.parasolid.transmit.text";
 		public static string ModelVndVtu {get;} = "model/vnd.vtu";
 		public static string ModelVrml {get;} = "model/vrml";
 		public static string ModelX3dBinary {get;} = "model/x3d+binary";
@@ -691,13 +833,19 @@ namespace MimeLut
 		public static string ModelX3dXml {get;} = "model/x3d+xml";
 		public static string TextCacheManifest {get;} = "text/cache-manifest";
 		public static string TextCalendar {get;} = "text/calendar";
+		public static string TextCommaSeparatedValues {get;} = "text/comma-separated-values";
 		public static string TextCss {get;} = "text/css";
 		public static string TextCsv {get;} = "text/csv";
+		public static string TextEcmascript {get;} = "text/ecmascript";
 		public static string TextHtml {get;} = "text/html";
+		public static string TextJavascript {get;} = "text/javascript";
+		public static string TextMarkdown {get;} = "text/markdown";
 		public static string TextN3 {get;} = "text/n3";
 		public static string TextPlain {get;} = "text/plain";
+		public static string TextPrsFallensteinRst {get;} = "text/prs.fallenstein.rst";
 		public static string TextPrsLinesTag {get;} = "text/prs.lines.tag";
 		public static string TextRichtext {get;} = "text/richtext";
+		public static string TextRtf {get;} = "text/rtf";
 		public static string TextSgml {get;} = "text/sgml";
 		public static string TextTabSeparatedValues {get;} = "text/tab-separated-values";
 		public static string TextTroff {get;} = "text/troff";
@@ -714,29 +862,41 @@ namespace MimeLut
 		public static string TextVndGraphviz {get;} = "text/vnd.graphviz";
 		public static string TextVndIn3d3dml {get;} = "text/vnd.in3d.3dml";
 		public static string TextVndIn3dSpot {get;} = "text/vnd.in3d.spot";
+		public static string TextVndNet2phoneCommcenterCommand {get;} = "text/vnd.net2phone.commcenter.command";
 		public static string TextVndSunJ2meAppDescriptor {get;} = "text/vnd.sun.j2me.app-descriptor";
+		public static string TextVndWapSi {get;} = "text/vnd.wap.si";
+		public static string TextVndWapSl {get;} = "text/vnd.wap.sl";
 		public static string TextVndWapWml {get;} = "text/vnd.wap.wml";
 		public static string TextVndWapWmlscript {get;} = "text/vnd.wap.wmlscript";
 		public static string TextXAsm {get;} = "text/x-asm";
 		public static string TextXC {get;} = "text/x-c";
+		public static string TextXCoffescript {get;} = "text/x-coffescript";
+		public static string TextXComponent {get;} = "text/x-component";
 		public static string TextXFortran {get;} = "text/x-fortran";
 		public static string TextXJavaSource {get;} = "text/x-java-source";
 		public static string TextXNfo {get;} = "text/x-nfo";
 		public static string TextXOpml {get;} = "text/x-opml";
 		public static string TextXPascal {get;} = "text/x-pascal";
+		public static string TextXRtf {get;} = "text/x-rtf";
 		public static string TextXSetext {get;} = "text/x-setext";
 		public static string TextXSfv {get;} = "text/x-sfv";
 		public static string TextXUuencode {get;} = "text/x-uuencode";
 		public static string TextXVcalendar {get;} = "text/x-vcalendar";
 		public static string TextXVcard {get;} = "text/x-vcard";
+		public static string TextXYaml {get;} = "text/x-yaml";
+		public static string TextXml {get;} = "text/xml";
 		public static string Video3gpp {get;} = "video/3gpp";
 		public static string Video3gpp2 {get;} = "video/3gpp2";
-		public static string VideoH261 {get;} = "video/h261";
-		public static string VideoH263 {get;} = "video/h263";
-		public static string VideoH264 {get;} = "video/h264";
-		public static string VideoJpeg {get;} = "video/jpeg";
+		public static string VideoDl {get;} = "video/dl";
+		public static string VideoDV {get;} = "video/DV";
+		public static string VideoGl {get;} = "video/gl";
+		public static string VideoH261 {get;} = "video/H261";
+		public static string VideoH263 {get;} = "video/H263";
+		public static string VideoH264 {get;} = "video/H264";
+		public static string VideoJPEG {get;} = "video/JPEG";
 		public static string VideoJpm {get;} = "video/jpm";
-		public static string VideoMj2 {get;} = "video/mj2";
+		public static string VideoMJ2 {get;} = "video/MJ2";
+		public static string VideoMP2T {get;} = "video/MP2T";
 		public static string VideoMp4 {get;} = "video/mp4";
 		public static string VideoMpeg {get;} = "video/mpeg";
 		public static string VideoOgg {get;} = "video/ogg";
@@ -750,15 +910,26 @@ namespace MimeLut
 		public static string VideoVndFvt {get;} = "video/vnd.fvt";
 		public static string VideoVndMpegurl {get;} = "video/vnd.mpegurl";
 		public static string VideoVndMsPlayreadyMediaPyv {get;} = "video/vnd.ms-playready.media.pyv";
+		public static string VideoVndNokiaInterleavedMultimedia {get;} = "video/vnd.nokia.interleaved-multimedia";
+		public static string VideoVndObjectvideo {get;} = "video/vnd.objectvideo";
+		public static string VideoVndSealedMpeg1 {get;} = "video/vnd.sealed.mpeg1";
+		public static string VideoVndSealedMpeg4 {get;} = "video/vnd.sealed.mpeg4";
+		public static string VideoVndSealedSwf {get;} = "video/vnd.sealed.swf";
+		public static string VideoVndSealedmediaSoftsealMov {get;} = "video/vnd.sealedmedia.softseal.mov";
 		public static string VideoVndUvvuMp4 {get;} = "video/vnd.uvvu.mp4";
 		public static string VideoVndVivo {get;} = "video/vnd.vivo";
 		public static string VideoWebm {get;} = "video/webm";
+		public static string VideoXDl {get;} = "video/x-dl";
+		public static string VideoXDv {get;} = "video/x-dv";
 		public static string VideoXF4v {get;} = "video/x-f4v";
 		public static string VideoXFli {get;} = "video/x-fli";
 		public static string VideoXFlv {get;} = "video/x-flv";
+		public static string VideoXGl {get;} = "video/x-gl";
+		public static string VideoXIvf {get;} = "video/x-ivf";
 		public static string VideoXM4v {get;} = "video/x-m4v";
 		public static string VideoXMatroska {get;} = "video/x-matroska";
 		public static string VideoXMng {get;} = "video/x-mng";
+		public static string VideoXMotionJpeg {get;} = "video/x-motion-jpeg";
 		public static string VideoXMsAsf {get;} = "video/x-ms-asf";
 		public static string VideoXMsVob {get;} = "video/x-ms-vob";
 		public static string VideoXMsWm {get;} = "video/x-ms-wm";
@@ -768,11 +939,31 @@ namespace MimeLut
 		public static string VideoXMsvideo {get;} = "video/x-msvideo";
 		public static string VideoXSgiMovie {get;} = "video/x-sgi-movie";
 		public static string VideoXSmv {get;} = "video/x-smv";
-		public static string XConferenceXCooltalk {get;} = "x-conference/x-cooltalk";
+		public static string XWorldXVrml {get;} = "x-world/x-vrml";
 		public static bool TryFindMimeTypeByExtension(string _extensionWithoutDot, out string _mime)
 		{
 			switch(_extensionWithoutDot.ToLower())
 			{
+				case "mdf":
+				{
+					_mime = ApplicationXMsaccess;
+					return true;
+				}
+				case "mda":
+				{
+					_mime = ApplicationXMsaccess;
+					return true;
+				}
+				case "mdb":
+				{
+					_mime = ApplicationXMsaccess;
+					return true;
+				}
+				case "mde":
+				{
+					_mime = ApplicationXMsaccess;
+					return true;
+				}
 				case "ez":
 				{
 					_mime = ApplicationAndrewInset;
@@ -796,6 +987,11 @@ namespace MimeLut
 				case "atomsvc":
 				{
 					_mime = ApplicationAtomsvcXml;
+					return true;
+				}
+				case "bleep":
+				{
+					_mime = ApplicationXBleeper;
 					return true;
 				}
 				case "ccxml":
@@ -830,12 +1026,17 @@ namespace MimeLut
 				}
 				case "cu":
 				{
-					_mime = ApplicationCuSeeme;
+					_mime = ApplicationXCuSeeme;
 					return true;
 				}
 				case "davmount":
 				{
 					_mime = ApplicationDavmountXml;
+					return true;
+				}
+				case "dcm":
+				{
+					_mime = ApplicationDicom;
 					return true;
 				}
 				case "dbk":
@@ -855,7 +1056,12 @@ namespace MimeLut
 				}
 				case "ecma":
 				{
-					_mime = ApplicationEcmascript;
+					_mime = TextEcmascript;
+					return true;
+				}
+				case "es":
+				{
+					_mime = TextEcmascript;
 					return true;
 				}
 				case "emma":
@@ -868,14 +1074,49 @@ namespace MimeLut
 					_mime = ApplicationEpubZip;
 					return true;
 				}
+				case "xls":
+				{
+					_mime = ApplicationVndMsExcel;
+					return true;
+				}
+				case "xlt":
+				{
+					_mime = ApplicationVndMsExcel;
+					return true;
+				}
 				case "exi":
 				{
 					_mime = ApplicationExi;
 					return true;
 				}
+				case "otf":
+				{
+					_mime = FontOtf;
+					return true;
+				}
+				case "ttf":
+				{
+					_mime = FontTtf;
+					return true;
+				}
 				case "pfr":
 				{
 					_mime = ApplicationFontTdpfr;
+					return true;
+				}
+				case "woff":
+				{
+					_mime = FontWoff;
+					return true;
+				}
+				case "woff2":
+				{
+					_mime = FontWoff2;
+					return true;
+				}
+				case "spl":
+				{
+					_mime = ApplicationXFuturesplash;
 					return true;
 				}
 				case "gml":
@@ -893,9 +1134,29 @@ namespace MimeLut
 					_mime = ApplicationGxf;
 					return true;
 				}
+				case "gz":
+				{
+					_mime = ApplicationXGzip;
+					return true;
+				}
+				case "hep":
+				{
+					_mime = ApplicationXHep;
+					return true;
+				}
 				case "stk":
 				{
 					_mime = ApplicationHyperstudio;
+					return true;
+				}
+				case "imagemap":
+				{
+					_mime = ApplicationXImagemap;
+					return true;
+				}
+				case "imap":
+				{
+					_mime = ApplicationXImagemap;
 					return true;
 				}
 				case "ink":
@@ -915,20 +1176,30 @@ namespace MimeLut
 				}
 				case "jar":
 				{
-					_mime = ApplicationJavaArchive;
+					_mime = ApplicationXJavaArchive;
 					return true;
 				}
 				case "ser":
 				{
-					_mime = ApplicationJavaSerializedObject;
+					_mime = ApplicationXJavaSerializedObject;
 					return true;
 				}
 				case "class":
 				{
-					_mime = ApplicationJavaVm;
+					_mime = ApplicationXJavaVm;
 					return true;
 				}
 				case "js":
+				{
+					_mime = TextJavascript;
+					return true;
+				}
+				case "mjs":
+				{
+					_mime = TextJavascript;
+					return true;
+				}
+				case "sj":
 				{
 					_mime = ApplicationJavascript;
 					return true;
@@ -948,6 +1219,11 @@ namespace MimeLut
 					_mime = ApplicationLostXml;
 					return true;
 				}
+				case "wks":
+				{
+					_mime = ApplicationXLotus123;
+					return true;
+				}
 				case "hqx":
 				{
 					_mime = ApplicationMacBinhex40;
@@ -955,7 +1231,7 @@ namespace MimeLut
 				}
 				case "cpt":
 				{
-					_mime = ApplicationMacCompactpro;
+					_mime = ApplicationXMacCompactpro;
 					return true;
 				}
 				case "mads":
@@ -973,17 +1249,22 @@ namespace MimeLut
 					_mime = ApplicationMarcxmlXml;
 					return true;
 				}
+				case "mcd":
+				{
+					_mime = ApplicationXMathcad;
+					return true;
+				}
 				case "ma":
 				{
 					_mime = ApplicationMathematica;
 					return true;
 				}
-				case "nb":
+				case "mb":
 				{
 					_mime = ApplicationMathematica;
 					return true;
 				}
-				case "mb":
+				case "nb":
 				{
 					_mime = ApplicationMathematica;
 					return true;
@@ -1033,6 +1314,16 @@ namespace MimeLut
 					_mime = ApplicationMp21;
 					return true;
 				}
+				case "mp4":
+				{
+					_mime = VideoVndObjectvideo;
+					return true;
+				}
+				case "mpg4":
+				{
+					_mime = VideoMp4;
+					return true;
+				}
 				case "mp4s":
 				{
 					_mime = ApplicationMp4;
@@ -1040,12 +1331,17 @@ namespace MimeLut
 				}
 				case "doc":
 				{
-					_mime = ApplicationMsword;
+					_mime = TextPlain;
 					return true;
 				}
 				case "dot":
 				{
-					_mime = ApplicationMsword;
+					_mime = ApplicationXWord;
+					return true;
+				}
+				case "wrd":
+				{
+					_mime = ApplicationXMsword;
 					return true;
 				}
 				case "mxf":
@@ -1053,9 +1349,19 @@ namespace MimeLut
 					_mime = ApplicationMxf;
 					return true;
 				}
+				case "nc":
+				{
+					_mime = ApplicationXNetcdf;
+					return true;
+				}
+				case "cdf":
+				{
+					_mime = ApplicationXNetcdf;
+					return true;
+				}
 				case "bin":
 				{
-					_mime = ApplicationOctetStream;
+					_mime = ApplicationXMacbase64;
 					return true;
 				}
 				case "dms":
@@ -1063,17 +1369,57 @@ namespace MimeLut
 					_mime = ApplicationOctetStream;
 					return true;
 				}
-				case "lrf":
+				case "lha":
+				{
+					_mime = ApplicationXLzhCompressed;
+					return true;
+				}
+				case "lzh":
+				{
+					_mime = ApplicationXLzhCompressed;
+					return true;
+				}
+				case "exe":
+				{
+					_mime = ApplicationXMsdownload;
+					return true;
+				}
+				case "ani":
 				{
 					_mime = ApplicationOctetStream;
 					return true;
 				}
-				case "mar":
+				case "pgp":
 				{
-					_mime = ApplicationOctetStream;
+					_mime = ApplicationPgpEncrypted;
+					return true;
+				}
+				case "gpg":
+				{
+					_mime = ApplicationPgpEncrypted;
 					return true;
 				}
 				case "so":
+				{
+					_mime = ApplicationOctetStream;
+					return true;
+				}
+				case "dll":
+				{
+					_mime = ApplicationXMsdownload;
+					return true;
+				}
+				case "dylib":
+				{
+					_mime = ApplicationOctetStream;
+					return true;
+				}
+				case "bpk":
+				{
+					_mime = ApplicationOctetStream;
+					return true;
+				}
+				case "deploy":
 				{
 					_mime = ApplicationOctetStream;
 					return true;
@@ -1088,16 +1434,6 @@ namespace MimeLut
 					_mime = ApplicationOctetStream;
 					return true;
 				}
-				case "pkg":
-				{
-					_mime = ApplicationOctetStream;
-					return true;
-				}
-				case "bpk":
-				{
-					_mime = ApplicationOctetStream;
-					return true;
-				}
 				case "dump":
 				{
 					_mime = ApplicationOctetStream;
@@ -1108,7 +1444,22 @@ namespace MimeLut
 					_mime = ApplicationOctetStream;
 					return true;
 				}
-				case "deploy":
+				case "lrf":
+				{
+					_mime = ApplicationOctetStream;
+					return true;
+				}
+				case "mar":
+				{
+					_mime = ApplicationOctetStream;
+					return true;
+				}
+				case "pkg":
+				{
+					_mime = ApplicationOctetStream;
+					return true;
+				}
+				case "ipa":
 				{
 					_mime = ApplicationOctetStream;
 					return true;
@@ -1133,12 +1484,7 @@ namespace MimeLut
 					_mime = ApplicationOmdocXml;
 					return true;
 				}
-				case "onetoc":
-				{
-					_mime = ApplicationOnenote;
-					return true;
-				}
-				case "onetoc2":
+				case "onepkg":
 				{
 					_mime = ApplicationOnenote;
 					return true;
@@ -1148,7 +1494,12 @@ namespace MimeLut
 					_mime = ApplicationOnenote;
 					return true;
 				}
-				case "onepkg":
+				case "onetoc":
+				{
+					_mime = ApplicationOnenote;
+					return true;
+				}
+				case "onetoc2":
 				{
 					_mime = ApplicationOnenote;
 					return true;
@@ -1168,14 +1519,14 @@ namespace MimeLut
 					_mime = ApplicationPdf;
 					return true;
 				}
-				case "pgp":
+				case "ai":
 				{
-					_mime = ApplicationPgpEncrypted;
+					_mime = ApplicationPostscript;
 					return true;
 				}
 				case "asc":
 				{
-					_mime = ApplicationPgpSignature;
+					_mime = TextPlain;
 					return true;
 				}
 				case "sig":
@@ -1243,11 +1594,6 @@ namespace MimeLut
 					_mime = ApplicationPlsXml;
 					return true;
 				}
-				case "ai":
-				{
-					_mime = ApplicationPostscript;
-					return true;
-				}
 				case "eps":
 				{
 					_mime = ApplicationPostscript;
@@ -1258,14 +1604,49 @@ namespace MimeLut
 					_mime = ApplicationPostscript;
 					return true;
 				}
+				case "ppt":
+				{
+					_mime = ApplicationVndMsPowerpoint;
+					return true;
+				}
+				case "pps":
+				{
+					_mime = ApplicationVndMsPowerpoint;
+					return true;
+				}
+				case "pot":
+				{
+					_mime = ApplicationVndMsPowerpoint;
+					return true;
+				}
+				case "cw":
+				{
+					_mime = ApplicationPrsCww;
+					return true;
+				}
 				case "cww":
 				{
 					_mime = ApplicationPrsCww;
 					return true;
 				}
+				case "rnd":
+				{
+					_mime = ApplicationPrsNprend;
+					return true;
+				}
+				case "rct":
+				{
+					_mime = ApplicationPrsNprend;
+					return true;
+				}
 				case "pskcxml":
 				{
 					_mime = ApplicationPskcXml;
+					return true;
+				}
+				case "qtl":
+				{
+					_mime = ApplicationXQuicktimeplayer;
 					return true;
 				}
 				case "rdf":
@@ -1325,7 +1706,7 @@ namespace MimeLut
 				}
 				case "rtf":
 				{
-					_mime = ApplicationRtf;
+					_mime = TextXRtf;
 					return true;
 				}
 				case "sbml":
@@ -1350,7 +1731,7 @@ namespace MimeLut
 				}
 				case "spp":
 				{
-					_mime = ApplicationScvpVpResponse;
+					_mime = ApplicationXSpss;
 					return true;
 				}
 				case "sdp":
@@ -1368,9 +1749,24 @@ namespace MimeLut
 					_mime = ApplicationSetRegistrationInitiation;
 					return true;
 				}
+				case "sgml":
+				{
+					_mime = TextSgml;
+					return true;
+				}
+				case "soc":
+				{
+					_mime = ApplicationSgmlOpenCatalog;
+					return true;
+				}
 				case "shf":
 				{
 					_mime = ApplicationShfXml;
+					return true;
+				}
+				case "siv":
+				{
+					_mime = ApplicationSieve;
 					return true;
 				}
 				case "smi":
@@ -1438,6 +1834,16 @@ namespace MimeLut
 					_mime = ApplicationTimestampedData;
 					return true;
 				}
+				case "tbk":
+				{
+					_mime = ApplicationXToolbook;
+					return true;
+				}
+				case "bck":
+				{
+					_mime = ApplicationXVMSBACKUP;
+					return true;
+				}
 				case "plb":
 				{
 					_mime = ApplicationVnd3gppPicBwLarge;
@@ -1453,6 +1859,11 @@ namespace MimeLut
 					_mime = ApplicationVnd3gppPicBwVar;
 					return true;
 				}
+				case "sms":
+				{
+					_mime = ApplicationVnd3gppSms;
+					return true;
+				}
 				case "tcap":
 				{
 					_mime = ApplicationVnd3gpp2Tcap;
@@ -1460,7 +1871,7 @@ namespace MimeLut
 				}
 				case "pwn":
 				{
-					_mime = ApplicationVnd3mPostItNotes;
+					_mime = ApplicationVnd3MPostItNotes;
 					return true;
 				}
 				case "aso":
@@ -1578,6 +1989,11 @@ namespace MimeLut
 					_mime = ApplicationVndAppleMpegurl;
 					return true;
 				}
+				case "pkpass":
+				{
+					_mime = ApplicationVndApplePkpass;
+					return true;
+				}
 				case "swi":
 				{
 					_mime = ApplicationVndAristanetworksSwi;
@@ -1633,17 +2049,17 @@ namespace MimeLut
 					_mime = ApplicationVndCloantoRp9;
 					return true;
 				}
-				case "c4g":
-				{
-					_mime = ApplicationVndClonkC4group;
-					return true;
-				}
 				case "c4d":
 				{
 					_mime = ApplicationVndClonkC4group;
 					return true;
 				}
 				case "c4f":
+				{
+					_mime = ApplicationVndClonkC4group;
+					return true;
+				}
+				case "c4g":
 				{
 					_mime = ApplicationVndClonkC4group;
 					return true;
@@ -1723,6 +2139,11 @@ namespace MimeLut
 					_mime = ApplicationVndCupsPpd;
 					return true;
 				}
+				case "curl":
+				{
+					_mime = TextVndCurl;
+					return true;
+				}
 				case "car":
 				{
 					_mime = ApplicationVndCurlCar;
@@ -1743,22 +2164,22 @@ namespace MimeLut
 					_mime = ApplicationVndDataVisionRdz;
 					return true;
 				}
-				case "uvf":
-				{
-					_mime = ApplicationVndDeceData;
-					return true;
-				}
-				case "uvvf":
-				{
-					_mime = ApplicationVndDeceData;
-					return true;
-				}
 				case "uvd":
 				{
 					_mime = ApplicationVndDeceData;
 					return true;
 				}
+				case "uvf":
+				{
+					_mime = ApplicationVndDeceData;
+					return true;
+				}
 				case "uvvd":
+				{
+					_mime = ApplicationVndDeceData;
+					return true;
+				}
+				case "uvvf":
 				{
 					_mime = ApplicationVndDeceData;
 					return true;
@@ -1773,22 +2194,22 @@ namespace MimeLut
 					_mime = ApplicationVndDeceTtmlXml;
 					return true;
 				}
-				case "uvx":
-				{
-					_mime = ApplicationVndDeceUnspecified;
-					return true;
-				}
 				case "uvvx":
 				{
 					_mime = ApplicationVndDeceUnspecified;
 					return true;
 				}
-				case "uvz":
+				case "uvx":
+				{
+					_mime = ApplicationVndDeceUnspecified;
+					return true;
+				}
+				case "uvvz":
 				{
 					_mime = ApplicationVndDeceZip;
 					return true;
 				}
-				case "uvvz":
+				case "uvz":
 				{
 					_mime = ApplicationVndDeceZip;
 					return true;
@@ -1903,19 +2324,19 @@ namespace MimeLut
 					_mime = ApplicationVndFdsnMseed;
 					return true;
 				}
-				case "seed":
+				case "dataless":
 				{
 					_mime = ApplicationVndFdsnSeed;
 					return true;
 				}
-				case "dataless":
+				case "seed":
 				{
 					_mime = ApplicationVndFdsnSeed;
 					return true;
 				}
 				case "gph":
 				{
-					_mime = ApplicationVndFlographit;
+					_mime = ApplicationVndFloGraphIt;
 					return true;
 				}
 				case "ftc":
@@ -1923,24 +2344,39 @@ namespace MimeLut
 					_mime = ApplicationVndFluxtimeClip;
 					return true;
 				}
-				case "fm":
+				case "frm":
 				{
-					_mime = ApplicationVndFramemaker;
-					return true;
-				}
-				case "frame":
-				{
-					_mime = ApplicationVndFramemaker;
+					_mime = ApplicationXMaker;
 					return true;
 				}
 				case "maker":
 				{
-					_mime = ApplicationVndFramemaker;
+					_mime = ApplicationXMaker;
+					return true;
+				}
+				case "frame":
+				{
+					_mime = ApplicationXMaker;
+					return true;
+				}
+				case "fm":
+				{
+					_mime = ApplicationXMaker;
+					return true;
+				}
+				case "fb":
+				{
+					_mime = ApplicationXMaker;
 					return true;
 				}
 				case "book":
 				{
-					_mime = ApplicationVndFramemaker;
+					_mime = ApplicationXMaker;
+					return true;
+				}
+				case "fbdoc":
+				{
+					_mime = ApplicationXMaker;
 					return true;
 				}
 				case "fnc":
@@ -2110,10 +2546,35 @@ namespace MimeLut
 				}
 				case "zmm":
 				{
-					_mime = ApplicationVndHandheldEntertainmentXml;
+					_mime = ApplicationVndHandHeldEntertainmentXml;
 					return true;
 				}
 				case "hbci":
+				{
+					_mime = ApplicationVndHbci;
+					return true;
+				}
+				case "hbc":
+				{
+					_mime = ApplicationVndHbci;
+					return true;
+				}
+				case "kom":
+				{
+					_mime = ApplicationVndHbci;
+					return true;
+				}
+				case "upa":
+				{
+					_mime = ApplicationVndHbci;
+					return true;
+				}
+				case "pkd":
+				{
+					_mime = ApplicationVndHbci;
+					return true;
+				}
+				case "bpd":
 				{
 					_mime = ApplicationVndHbci;
 					return true;
@@ -2123,9 +2584,14 @@ namespace MimeLut
 					_mime = ApplicationVndHheLessonPlayer;
 					return true;
 				}
+				case "plt":
+				{
+					_mime = ApplicationVndHpHPGL;
+					return true;
+				}
 				case "hpgl":
 				{
-					_mime = ApplicationVndHpHpgl;
+					_mime = ApplicationVndHpHPGL;
 					return true;
 				}
 				case "hpid":
@@ -2145,12 +2611,12 @@ namespace MimeLut
 				}
 				case "pcl":
 				{
-					_mime = ApplicationVndHpPcl;
+					_mime = ApplicationVndHpPCL;
 					return true;
 				}
 				case "pclxl":
 				{
-					_mime = ApplicationVndHpPclxl;
+					_mime = ApplicationVndHpPCLXL;
 					return true;
 				}
 				case "sfd-hdstx":
@@ -2158,9 +2624,14 @@ namespace MimeLut
 					_mime = ApplicationVndHydrostatixSofData;
 					return true;
 				}
+				case "emm":
+				{
+					_mime = ApplicationVndIbmElectronicMedia;
+					return true;
+				}
 				case "mpy":
 				{
-					_mime = ApplicationVndIbmMinipay;
+					_mime = ApplicationVndIbmMiniPay;
 					return true;
 				}
 				case "afp":
@@ -2168,12 +2639,12 @@ namespace MimeLut
 					_mime = ApplicationVndIbmModcap;
 					return true;
 				}
-				case "listafp":
+				case "list3820":
 				{
 					_mime = ApplicationVndIbmModcap;
 					return true;
 				}
-				case "list3820":
+				case "listafp":
 				{
 					_mime = ApplicationVndIbmModcap;
 					return true;
@@ -2283,12 +2754,12 @@ namespace MimeLut
 					_mime = ApplicationVndJoostJodaArchive;
 					return true;
 				}
-				case "ktz":
+				case "ktr":
 				{
 					_mime = ApplicationVndKahootz;
 					return true;
 				}
-				case "ktr":
+				case "ktz":
 				{
 					_mime = ApplicationVndKahootz;
 					return true;
@@ -2363,24 +2834,29 @@ namespace MimeLut
 					_mime = ApplicationVndKinar;
 					return true;
 				}
-				case "skp":
+				case "sdf":
 				{
-					_mime = ApplicationVndKoan;
+					_mime = ApplicationVndStardivisionMath;
 					return true;
 				}
 				case "skd":
 				{
-					_mime = ApplicationVndKoan;
-					return true;
-				}
-				case "skt":
-				{
-					_mime = ApplicationVndKoan;
+					_mime = ApplicationXKoan;
 					return true;
 				}
 				case "skm":
 				{
-					_mime = ApplicationVndKoan;
+					_mime = ApplicationXKoan;
+					return true;
+				}
+				case "skp":
+				{
+					_mime = ApplicationXKoan;
+					return true;
+				}
+				case "skt":
+				{
+					_mime = ApplicationXKoan;
 					return true;
 				}
 				case "sse":
@@ -2443,11 +2919,6 @@ namespace MimeLut
 					_mime = ApplicationVndMacportsPortpkg;
 					return true;
 				}
-				case "mcd":
-				{
-					_mime = ApplicationVndMcd;
-					return true;
-				}
 				case "mc1":
 				{
 					_mime = ApplicationVndMedcalcdata;
@@ -2460,7 +2931,7 @@ namespace MimeLut
 				}
 				case "mwf":
 				{
-					_mime = ApplicationVndMfer;
+					_mime = ApplicationVndMFER;
 					return true;
 				}
 				case "mfm":
@@ -2480,42 +2951,42 @@ namespace MimeLut
 				}
 				case "mif":
 				{
-					_mime = ApplicationVndMif;
+					_mime = ApplicationXMif;
 					return true;
 				}
 				case "daf":
 				{
-					_mime = ApplicationVndMobiusDaf;
+					_mime = ApplicationVndMobiusDAF;
 					return true;
 				}
 				case "dis":
 				{
-					_mime = ApplicationVndMobiusDis;
+					_mime = ApplicationVndMobiusDIS;
 					return true;
 				}
 				case "mbk":
 				{
-					_mime = ApplicationVndMobiusMbk;
+					_mime = ApplicationVndMobiusMBK;
 					return true;
 				}
 				case "mqy":
 				{
-					_mime = ApplicationVndMobiusMqy;
+					_mime = ApplicationVndMobiusMQY;
 					return true;
 				}
 				case "msl":
 				{
-					_mime = ApplicationVndMobiusMsl;
+					_mime = ApplicationVndMobiusMSL;
 					return true;
 				}
 				case "plc":
 				{
-					_mime = ApplicationVndMobiusPlc;
+					_mime = ApplicationVndMobiusPLC;
 					return true;
 				}
 				case "txf":
 				{
-					_mime = ApplicationVndMobiusTxf;
+					_mime = ApplicationVndMobiusTXF;
 					return true;
 				}
 				case "mpn":
@@ -2538,19 +3009,14 @@ namespace MimeLut
 					_mime = ApplicationVndMsArtgalry;
 					return true;
 				}
+				case "asf":
+				{
+					_mime = VideoXMsAsf;
+					return true;
+				}
 				case "cab":
 				{
 					_mime = ApplicationVndMsCabCompressed;
-					return true;
-				}
-				case "xls":
-				{
-					_mime = ApplicationVndMsExcel;
-					return true;
-				}
-				case "xlm":
-				{
-					_mime = ApplicationVndMsExcel;
 					return true;
 				}
 				case "xla":
@@ -2563,7 +3029,7 @@ namespace MimeLut
 					_mime = ApplicationVndMsExcel;
 					return true;
 				}
-				case "xlt":
+				case "xlm":
 				{
 					_mime = ApplicationVndMsExcel;
 					return true;
@@ -2575,22 +3041,22 @@ namespace MimeLut
 				}
 				case "xlam":
 				{
-					_mime = ApplicationVndMsExcelAddinMacroenabled12;
+					_mime = ApplicationVndMsExcelAddinMacroEnabled12;
 					return true;
 				}
 				case "xlsb":
 				{
-					_mime = ApplicationVndMsExcelSheetBinaryMacroenabled12;
+					_mime = ApplicationVndMsExcelSheetBinaryMacroEnabled12;
 					return true;
 				}
 				case "xlsm":
 				{
-					_mime = ApplicationVndMsExcelSheetMacroenabled12;
+					_mime = ApplicationVndMsExcelSheetMacroEnabled12;
 					return true;
 				}
 				case "xltm":
 				{
-					_mime = ApplicationVndMsExcelTemplateMacroenabled12;
+					_mime = ApplicationVndMsExcelTemplateMacroEnabled12;
 					return true;
 				}
 				case "eot":
@@ -2618,6 +3084,11 @@ namespace MimeLut
 					_mime = ApplicationVndMsOfficetheme;
 					return true;
 				}
+				case "msg":
+				{
+					_mime = ApplicationVndMsOutlook;
+					return true;
+				}
 				case "cat":
 				{
 					_mime = ApplicationVndMsPkiSeccat;
@@ -2628,44 +3099,29 @@ namespace MimeLut
 					_mime = ApplicationVndMsPkiStl;
 					return true;
 				}
-				case "ppt":
-				{
-					_mime = ApplicationVndMsPowerpoint;
-					return true;
-				}
-				case "pps":
-				{
-					_mime = ApplicationVndMsPowerpoint;
-					return true;
-				}
-				case "pot":
-				{
-					_mime = ApplicationVndMsPowerpoint;
-					return true;
-				}
 				case "ppam":
 				{
-					_mime = ApplicationVndMsPowerpointAddinMacroenabled12;
+					_mime = ApplicationVndMsPowerpointAddinMacroEnabled12;
 					return true;
 				}
 				case "pptm":
 				{
-					_mime = ApplicationVndMsPowerpointPresentationMacroenabled12;
+					_mime = ApplicationVndMsPowerpointPresentationMacroEnabled12;
 					return true;
 				}
 				case "sldm":
 				{
-					_mime = ApplicationVndMsPowerpointSlideMacroenabled12;
+					_mime = ApplicationVndMsPowerpointSlideMacroEnabled12;
 					return true;
 				}
 				case "ppsm":
 				{
-					_mime = ApplicationVndMsPowerpointSlideshowMacroenabled12;
+					_mime = ApplicationVndMsPowerpointSlideshowMacroEnabled12;
 					return true;
 				}
 				case "potm":
 				{
-					_mime = ApplicationVndMsPowerpointTemplateMacroenabled12;
+					_mime = ApplicationVndMsPowerpointTemplateMacroEnabled12;
 					return true;
 				}
 				case "mpp":
@@ -2680,22 +3136,12 @@ namespace MimeLut
 				}
 				case "docm":
 				{
-					_mime = ApplicationVndMsWordDocumentMacroenabled12;
+					_mime = ApplicationVndMsWordDocumentMacroEnabled12;
 					return true;
 				}
 				case "dotm":
 				{
-					_mime = ApplicationVndMsWordTemplateMacroenabled12;
-					return true;
-				}
-				case "wps":
-				{
-					_mime = ApplicationVndMsWorks;
-					return true;
-				}
-				case "wks":
-				{
-					_mime = ApplicationVndMsWorks;
+					_mime = ApplicationVndMsWordTemplateMacroEnabled12;
 					return true;
 				}
 				case "wcm":
@@ -2704,6 +3150,11 @@ namespace MimeLut
 					return true;
 				}
 				case "wdb":
+				{
+					_mime = ApplicationVndMsWorks;
+					return true;
+				}
+				case "wps":
 				{
 					_mime = ApplicationVndMsWorks;
 					return true;
@@ -2738,17 +3189,47 @@ namespace MimeLut
 					_mime = ApplicationVndMynfc;
 					return true;
 				}
+				case "ent":
+				{
+					_mime = ApplicationVndNervana;
+					return true;
+				}
+				case "entity":
+				{
+					_mime = ApplicationVndNervana;
+					return true;
+				}
+				case "req":
+				{
+					_mime = ApplicationVndNervana;
+					return true;
+				}
+				case "request":
+				{
+					_mime = ApplicationVndNervana;
+					return true;
+				}
+				case "bkm":
+				{
+					_mime = ApplicationVndNervana;
+					return true;
+				}
+				case "kcm":
+				{
+					_mime = ApplicationVndNervana;
+					return true;
+				}
 				case "nlu":
 				{
 					_mime = ApplicationVndNeurolanguageNlu;
 					return true;
 				}
-				case "ntf":
+				case "nitf":
 				{
 					_mime = ApplicationVndNitf;
 					return true;
 				}
-				case "nitf":
+				case "ntf":
 				{
 					_mime = ApplicationVndNitf;
 					return true;
@@ -2790,22 +3271,22 @@ namespace MimeLut
 				}
 				case "edm":
 				{
-					_mime = ApplicationVndNovadigmEdm;
+					_mime = ApplicationVndNovadigmEDM;
 					return true;
 				}
 				case "edx":
 				{
-					_mime = ApplicationVndNovadigmEdx;
+					_mime = ApplicationVndNovadigmEDX;
 					return true;
 				}
 				case "ext":
 				{
-					_mime = ApplicationVndNovadigmExt;
+					_mime = ApplicationVndNovadigmEXT;
 					return true;
 				}
 				case "odc":
 				{
-					_mime = ApplicationVndOasisOpendocumentChart;
+					_mime = ApplicationVndOasisOpendocumentChartTemplate;
 					return true;
 				}
 				case "otc":
@@ -2820,7 +3301,7 @@ namespace MimeLut
 				}
 				case "odf":
 				{
-					_mime = ApplicationVndOasisOpendocumentFormula;
+					_mime = ApplicationVndOasisOpendocumentFormulaTemplate;
 					return true;
 				}
 				case "odft":
@@ -2840,7 +3321,7 @@ namespace MimeLut
 				}
 				case "odi":
 				{
-					_mime = ApplicationVndOasisOpendocumentImage;
+					_mime = ApplicationVndOasisOpendocumentImageTemplate;
 					return true;
 				}
 				case "oti":
@@ -2958,9 +3439,14 @@ namespace MimeLut
 					_mime = ApplicationVndOsgiSubsystem;
 					return true;
 				}
+				case "prc":
+				{
+					_mime = ApplicationXMobipocketEbook;
+					return true;
+				}
 				case "pdb":
 				{
-					_mime = ApplicationVndPalm;
+					_mime = XChemicalXPdb;
 					return true;
 				}
 				case "pqa":
@@ -3023,6 +3509,11 @@ namespace MimeLut
 					_mime = ApplicationVndPublishareDeltaTree;
 					return true;
 				}
+				case "pti":
+				{
+					_mime = ApplicationVndPviPtid1;
+					return true;
+				}
 				case "ptid":
 				{
 					_mime = ApplicationVndPviPtid1;
@@ -3030,32 +3521,32 @@ namespace MimeLut
 				}
 				case "qxd":
 				{
-					_mime = ApplicationVndQuarkQuarkxpress;
+					_mime = ApplicationVndQuarkQuarkXPress;
 					return true;
 				}
 				case "qxt":
 				{
-					_mime = ApplicationVndQuarkQuarkxpress;
+					_mime = ApplicationVndQuarkQuarkXPress;
 					return true;
 				}
 				case "qwd":
 				{
-					_mime = ApplicationVndQuarkQuarkxpress;
+					_mime = ApplicationVndQuarkQuarkXPress;
 					return true;
 				}
 				case "qwt":
 				{
-					_mime = ApplicationVndQuarkQuarkxpress;
+					_mime = ApplicationVndQuarkQuarkXPress;
 					return true;
 				}
 				case "qxl":
 				{
-					_mime = ApplicationVndQuarkQuarkxpress;
+					_mime = ApplicationVndQuarkQuarkXPress;
 					return true;
 				}
 				case "qxb":
 				{
-					_mime = ApplicationVndQuarkQuarkxpress;
+					_mime = ApplicationVndQuarkQuarkXPress;
 					return true;
 				}
 				case "bed":
@@ -3103,6 +3594,96 @@ namespace MimeLut
 					_mime = ApplicationVndSailingtrackerTrack;
 					return true;
 				}
+				case "sdoc":
+				{
+					_mime = ApplicationVndSealedDoc;
+					return true;
+				}
+				case "sdo":
+				{
+					_mime = ApplicationVndSealedDoc;
+					return true;
+				}
+				case "s1w":
+				{
+					_mime = ApplicationVndSealedDoc;
+					return true;
+				}
+				case "seml":
+				{
+					_mime = ApplicationVndSealedEml;
+					return true;
+				}
+				case "sem":
+				{
+					_mime = ApplicationVndSealedEml;
+					return true;
+				}
+				case "smht":
+				{
+					_mime = ApplicationVndSealedMht;
+					return true;
+				}
+				case "smh":
+				{
+					_mime = ApplicationVndSealedMht;
+					return true;
+				}
+				case "sppt":
+				{
+					_mime = ApplicationVndSealedPpt;
+					return true;
+				}
+				case "s1p":
+				{
+					_mime = ApplicationVndSealedPpt;
+					return true;
+				}
+				case "sxls":
+				{
+					_mime = ApplicationVndSealedXls;
+					return true;
+				}
+				case "sxl":
+				{
+					_mime = ApplicationVndSealedXls;
+					return true;
+				}
+				case "s1e":
+				{
+					_mime = ApplicationVndSealedXls;
+					return true;
+				}
+				case "stml":
+				{
+					_mime = ApplicationVndSealedmediaSoftsealHtml;
+					return true;
+				}
+				case "stm":
+				{
+					_mime = ApplicationVndSealedmediaSoftsealHtml;
+					return true;
+				}
+				case "s1h":
+				{
+					_mime = ApplicationVndSealedmediaSoftsealHtml;
+					return true;
+				}
+				case "spdf":
+				{
+					_mime = ApplicationVndSealedmediaSoftsealPdf;
+					return true;
+				}
+				case "spd":
+				{
+					_mime = ApplicationVndSealedmediaSoftsealPdf;
+					return true;
+				}
+				case "s1a":
+				{
+					_mime = ApplicationVndSealedmediaSoftsealPdf;
+					return true;
+				}
 				case "see":
 				{
 					_mime = ApplicationVndSeemail;
@@ -3145,12 +3726,12 @@ namespace MimeLut
 				}
 				case "twd":
 				{
-					_mime = ApplicationVndSimtechMindmapper;
+					_mime = ApplicationVndSimTechMindMapper;
 					return true;
 				}
 				case "twds":
 				{
-					_mime = ApplicationVndSimtechMindmapper;
+					_mime = ApplicationVndSimTechMindMapper;
 					return true;
 				}
 				case "mmf":
@@ -3163,12 +3744,12 @@ namespace MimeLut
 					_mime = ApplicationVndSmartTeacher;
 					return true;
 				}
-				case "sdkm":
+				case "sdkd":
 				{
 					_mime = ApplicationVndSolentSdkmXml;
 					return true;
 				}
-				case "sdkd":
+				case "sdkm":
 				{
 					_mime = ApplicationVndSolentSdkmXml;
 					return true;
@@ -3186,6 +3767,11 @@ namespace MimeLut
 				case "sdc":
 				{
 					_mime = ApplicationVndStardivisionCalc;
+					return true;
+				}
+				case "sds":
+				{
+					_mime = ApplicationVndStardivisionChart;
 					return true;
 				}
 				case "sda":
@@ -3310,7 +3896,7 @@ namespace MimeLut
 				}
 				case "bdm":
 				{
-					_mime = ApplicationVndSyncmlDmWbxml;
+					_mime = VideoMP2T;
 					return true;
 				}
 				case "xdm":
@@ -3323,17 +3909,17 @@ namespace MimeLut
 					_mime = ApplicationVndTaoIntentModuleArchive;
 					return true;
 				}
-				case "pcap":
-				{
-					_mime = ApplicationVndTcpdumpPcap;
-					return true;
-				}
 				case "cap":
 				{
 					_mime = ApplicationVndTcpdumpPcap;
 					return true;
 				}
 				case "dmp":
+				{
+					_mime = ApplicationVndTcpdumpPcap;
+					return true;
+				}
+				case "pcap":
 				{
 					_mime = ApplicationVndTcpdumpPcap;
 					return true;
@@ -3393,6 +3979,11 @@ namespace MimeLut
 					_mime = ApplicationVndVcx;
 					return true;
 				}
+				case "vsc":
+				{
+					_mime = ApplicationVndVidsoftVidconference;
+					return true;
+				}
 				case "vsd":
 				{
 					_mime = ApplicationVndVisio;
@@ -3403,12 +3994,12 @@ namespace MimeLut
 					_mime = ApplicationVndVisio;
 					return true;
 				}
-				case "vss":
+				case "vsw":
 				{
 					_mime = ApplicationVndVisio;
 					return true;
 				}
-				case "vsw":
+				case "vss":
 				{
 					_mime = ApplicationVndVisio;
 					return true;
@@ -3421,6 +4012,16 @@ namespace MimeLut
 				case "vsf":
 				{
 					_mime = ApplicationVndVsf;
+					return true;
+				}
+				case "sic":
+				{
+					_mime = ApplicationVndWapSic;
+					return true;
+				}
+				case "slc":
+				{
+					_mime = ApplicationVndWapSlc;
 					return true;
 				}
 				case "wbxml":
@@ -3450,7 +4051,7 @@ namespace MimeLut
 				}
 				case "wpd":
 				{
-					_mime = ApplicationVndWordperfect;
+					_mime = ApplicationXWordperfectd;
 					return true;
 				}
 				case "wqd":
@@ -3461,6 +4062,11 @@ namespace MimeLut
 				case "stf":
 				{
 					_mime = ApplicationVndWtStf;
+					return true;
+				}
+				case "wv":
+				{
+					_mime = ApplicationVndWvCspWbxml;
 					return true;
 				}
 				case "xar":
@@ -3533,6 +4139,16 @@ namespace MimeLut
 					_mime = ApplicationVoicexmlXml;
 					return true;
 				}
+				case "wasm":
+				{
+					_mime = ApplicationWasm;
+					return true;
+				}
+				case "wif":
+				{
+					_mime = ApplicationWatcherinfoXml;
+					return true;
+				}
 				case "wgt":
 				{
 					_mime = ApplicationWidget;
@@ -3540,7 +4156,22 @@ namespace MimeLut
 				}
 				case "hlp":
 				{
-					_mime = ApplicationWinhlp;
+					_mime = TextPlain;
+					return true;
+				}
+				case "wp":
+				{
+					_mime = ApplicationXWordperfect;
+					return true;
+				}
+				case "wp5":
+				{
+					_mime = ApplicationWordperfect51;
+					return true;
+				}
+				case "wp6":
+				{
+					_mime = ApplicationXWordperfect61;
 					return true;
 				}
 				case "wsdl":
@@ -3551,6 +4182,11 @@ namespace MimeLut
 				case "wspolicy":
 				{
 					_mime = ApplicationWspolicyXml;
+					return true;
+				}
+				case "wk":
+				{
+					_mime = ApplicationX123;
 					return true;
 				}
 				case "7z":
@@ -3578,17 +4214,17 @@ namespace MimeLut
 					_mime = ApplicationXAuthorwareBin;
 					return true;
 				}
-				case "x32":
-				{
-					_mime = ApplicationXAuthorwareBin;
-					return true;
-				}
 				case "u32":
 				{
 					_mime = ApplicationXAuthorwareBin;
 					return true;
 				}
 				case "vox":
+				{
+					_mime = ApplicationXAuthorwareBin;
+					return true;
+				}
+				case "x32":
 				{
 					_mime = ApplicationXAuthorwareBin;
 					return true;
@@ -3628,22 +4264,27 @@ namespace MimeLut
 					_mime = ApplicationXBzip;
 					return true;
 				}
-				case "bz2":
-				{
-					_mime = ApplicationXBzip2;
-					return true;
-				}
 				case "boz":
 				{
 					_mime = ApplicationXBzip2;
 					return true;
 				}
-				case "cbr":
+				case "bz2":
+				{
+					_mime = ApplicationXBzip2;
+					return true;
+				}
+				case "cb7":
 				{
 					_mime = ApplicationXCbr;
 					return true;
 				}
 				case "cba":
+				{
+					_mime = ApplicationXCbr;
+					return true;
+				}
+				case "cbr":
 				{
 					_mime = ApplicationXCbr;
 					return true;
@@ -3654,11 +4295,6 @@ namespace MimeLut
 					return true;
 				}
 				case "cbz":
-				{
-					_mime = ApplicationXCbr;
-					return true;
-				}
-				case "cb7":
 				{
 					_mime = ApplicationXCbr;
 					return true;
@@ -3683,6 +4319,16 @@ namespace MimeLut
 					_mime = ApplicationXChessPgn;
 					return true;
 				}
+				case "crx":
+				{
+					_mime = ApplicationXChromeExtension;
+					return true;
+				}
+				case "z":
+				{
+					_mime = ApplicationXCompressed;
+					return true;
+				}
 				case "nsc":
 				{
 					_mime = ApplicationXConference;
@@ -3696,6 +4342,11 @@ namespace MimeLut
 				case "csh":
 				{
 					_mime = ApplicationXCsh;
+					return true;
+				}
+				case "csm":
+				{
+					_mime = ApplicationXCuSeeme;
 					return true;
 				}
 				case "deb":
@@ -3713,22 +4364,17 @@ namespace MimeLut
 					_mime = ApplicationXDgcCompressed;
 					return true;
 				}
-				case "dir":
-				{
-					_mime = ApplicationXDirector;
-					return true;
-				}
 				case "dcr":
 				{
 					_mime = ApplicationXDirector;
 					return true;
 				}
-				case "dxr":
+				case "@dir":
 				{
 					_mime = ApplicationXDirector;
 					return true;
 				}
-				case "cst":
+				case "@dxr":
 				{
 					_mime = ApplicationXDirector;
 					return true;
@@ -3738,12 +4384,22 @@ namespace MimeLut
 					_mime = ApplicationXDirector;
 					return true;
 				}
+				case "cst":
+				{
+					_mime = ApplicationXDirector;
+					return true;
+				}
 				case "cxt":
 				{
 					_mime = ApplicationXDirector;
 					return true;
 				}
-				case "w3d":
+				case "dir":
+				{
+					_mime = ApplicationXDirector;
+					return true;
+				}
+				case "dxr":
 				{
 					_mime = ApplicationXDirector;
 					return true;
@@ -3754,6 +4410,11 @@ namespace MimeLut
 					return true;
 				}
 				case "swa":
+				{
+					_mime = ApplicationXDirector;
+					return true;
+				}
+				case "w3d":
 				{
 					_mime = ApplicationXDirector;
 					return true;
@@ -3818,6 +4479,16 @@ namespace MimeLut
 					_mime = ApplicationXFontSnf;
 					return true;
 				}
+				case "ttc":
+				{
+					_mime = FontCollection;
+					return true;
+				}
+				case "afm":
+				{
+					_mime = ApplicationXFontType1;
+					return true;
+				}
 				case "pfa":
 				{
 					_mime = ApplicationXFontType1;
@@ -3833,19 +4504,9 @@ namespace MimeLut
 					_mime = ApplicationXFontType1;
 					return true;
 				}
-				case "afm":
-				{
-					_mime = ApplicationXFontType1;
-					return true;
-				}
 				case "arc":
 				{
 					_mime = ApplicationXFreearc;
-					return true;
-				}
-				case "spl":
-				{
-					_mime = ApplicationXFuturesplash;
 					return true;
 				}
 				case "gca":
@@ -3873,9 +4534,54 @@ namespace MimeLut
 					_mime = ApplicationXGtar;
 					return true;
 				}
+				case "tgz":
+				{
+					_mime = ApplicationXGtar;
+					return true;
+				}
+				case "tbz2":
+				{
+					_mime = ApplicationXGtar;
+					return true;
+				}
+				case "tbz":
+				{
+					_mime = ApplicationXGtar;
+					return true;
+				}
 				case "hdf":
 				{
 					_mime = ApplicationXHdf;
+					return true;
+				}
+				case "rhtml":
+				{
+					_mime = ApplicationXHtmlRuby;
+					return true;
+				}
+				case "phtml":
+				{
+					_mime = ApplicationXHttpdPhp;
+					return true;
+				}
+				case "pht":
+				{
+					_mime = ApplicationXHttpdPhp;
+					return true;
+				}
+				case "php":
+				{
+					_mime = ApplicationXHttpdPhp;
+					return true;
+				}
+				case "ibooks":
+				{
+					_mime = ApplicationXIbooksZip;
+					return true;
+				}
+				case "ica":
+				{
+					_mime = ApplicationXIca;
 					return true;
 				}
 				case "install":
@@ -3888,9 +4594,29 @@ namespace MimeLut
 					_mime = ApplicationXIso9660Image;
 					return true;
 				}
+				case "key":
+				{
+					_mime = ApplicationXIworkKeynoteSffkey;
+					return true;
+				}
+				case "numbers":
+				{
+					_mime = ApplicationXIworkNumbersSffnumbers;
+					return true;
+				}
+				case "pages":
+				{
+					_mime = ApplicationXIworkPagesSffpages;
+					return true;
+				}
 				case "jnlp":
 				{
 					_mime = ApplicationXJavaJnlpFile;
+					return true;
+				}
+				case "ltx":
+				{
+					_mime = ApplicationXLatex;
 					return true;
 				}
 				case "latex":
@@ -3898,24 +4624,9 @@ namespace MimeLut
 					_mime = ApplicationXLatex;
 					return true;
 				}
-				case "lzh":
-				{
-					_mime = ApplicationXLzhCompressed;
-					return true;
-				}
-				case "lha":
-				{
-					_mime = ApplicationXLzhCompressed;
-					return true;
-				}
 				case "mie":
 				{
 					_mime = ApplicationXMie;
-					return true;
-				}
-				case "prc":
-				{
-					_mime = ApplicationXMobipocketEbook;
 					return true;
 				}
 				case "mobi":
@@ -3948,11 +4659,6 @@ namespace MimeLut
 					_mime = ApplicationXMsXbap;
 					return true;
 				}
-				case "mdb":
-				{
-					_mime = ApplicationXMsaccess;
-					return true;
-				}
 				case "obd":
 				{
 					_mime = ApplicationXMsbinder;
@@ -3968,17 +4674,7 @@ namespace MimeLut
 					_mime = ApplicationXMsclip;
 					return true;
 				}
-				case "exe":
-				{
-					_mime = ApplicationXMsdownload;
-					return true;
-				}
-				case "dll":
-				{
-					_mime = ApplicationXMsdownload;
-					return true;
-				}
-				case "com":
+				case "cmd":
 				{
 					_mime = ApplicationXMsdownload;
 					return true;
@@ -3988,14 +4684,29 @@ namespace MimeLut
 					_mime = ApplicationXMsdownload;
 					return true;
 				}
-				case "msi":
+				case "com":
 				{
 					_mime = ApplicationXMsdownload;
 					return true;
 				}
-				case "mvb":
+				case "reg":
 				{
-					_mime = ApplicationXMsmediaview;
+					_mime = ApplicationXMsdownload;
+					return true;
+				}
+				case "ps1":
+				{
+					_mime = ApplicationXMsdownload;
+					return true;
+				}
+				case "vbs":
+				{
+					_mime = ApplicationXMsdownload;
+					return true;
+				}
+				case "msi":
+				{
+					_mime = ApplicationXMsdownload;
 					return true;
 				}
 				case "m13":
@@ -4008,9 +4719,9 @@ namespace MimeLut
 					_mime = ApplicationXMsmediaview;
 					return true;
 				}
-				case "wmf":
+				case "mvb":
 				{
-					_mime = ApplicationXMsmetafile;
+					_mime = ApplicationXMsmediaview;
 					return true;
 				}
 				case "emf":
@@ -4019,6 +4730,11 @@ namespace MimeLut
 					return true;
 				}
 				case "emz":
+				{
+					_mime = ApplicationXMsmetafile;
+					return true;
+				}
+				case "wmf":
 				{
 					_mime = ApplicationXMsmetafile;
 					return true;
@@ -4048,19 +4764,39 @@ namespace MimeLut
 					_mime = ApplicationXMswrite;
 					return true;
 				}
-				case "nc":
+				case "pac":
 				{
-					_mime = ApplicationXNetcdf;
-					return true;
-				}
-				case "cdf":
-				{
-					_mime = ApplicationXNetcdf;
+					_mime = ApplicationXNsProxyAutoconfig;
 					return true;
 				}
 				case "nzb":
 				{
 					_mime = ApplicationXNzb;
+					return true;
+				}
+				case "oex":
+				{
+					_mime = ApplicationXOperaExtension;
+					return true;
+				}
+				case "pm":
+				{
+					_mime = ApplicationXPerl;
+					return true;
+				}
+				case "pm5":
+				{
+					_mime = ApplicationXPagemaker;
+					return true;
+				}
+				case "pt5":
+				{
+					_mime = ApplicationXPagemaker;
+					return true;
+				}
+				case "pl":
+				{
+					_mime = ApplicationXPerl;
 					return true;
 				}
 				case "p12":
@@ -4088,6 +4824,11 @@ namespace MimeLut
 					_mime = ApplicationXPkcs7Certreqresp;
 					return true;
 				}
+				case "py":
+				{
+					_mime = ApplicationXPython;
+					return true;
+				}
 				case "rar":
 				{
 					_mime = ApplicationXRarCompressed;
@@ -4096,6 +4837,16 @@ namespace MimeLut
 				case "ris":
 				{
 					_mime = ApplicationXResearchInfoSystems;
+					return true;
+				}
+				case "rb":
+				{
+					_mime = ApplicationXRuby;
+					return true;
+				}
+				case "rbw":
+				{
+					_mime = ApplicationXRuby;
 					return true;
 				}
 				case "sh":
@@ -4116,6 +4867,26 @@ namespace MimeLut
 				case "xap":
 				{
 					_mime = ApplicationXSilverlightApp;
+					return true;
+				}
+				case "sav":
+				{
+					_mime = ApplicationXSpss;
+					return true;
+				}
+				case "sbs":
+				{
+					_mime = ApplicationXSpss;
+					return true;
+				}
+				case "sps":
+				{
+					_mime = ApplicationXSpss;
+					return true;
+				}
+				case "spo":
+				{
+					_mime = ApplicationXSpss;
 					return true;
 				}
 				case "sql":
@@ -4193,6 +4964,36 @@ namespace MimeLut
 					_mime = ApplicationXTgif;
 					return true;
 				}
+				case "t":
+				{
+					_mime = TextTroff;
+					return true;
+				}
+				case "tr":
+				{
+					_mime = TextTroff;
+					return true;
+				}
+				case "roff":
+				{
+					_mime = TextTroff;
+					return true;
+				}
+				case "man":
+				{
+					_mime = TextTroff;
+					return true;
+				}
+				case "me":
+				{
+					_mime = TextTroff;
+					return true;
+				}
+				case "ms":
+				{
+					_mime = TextTroff;
+					return true;
+				}
 				case "ustar":
 				{
 					_mime = ApplicationXUstar;
@@ -4203,12 +5004,27 @@ namespace MimeLut
 					_mime = ApplicationXWaisSource;
 					return true;
 				}
-				case "der":
+				case "webapp":
+				{
+					_mime = ApplicationXWebAppManifestJson;
+					return true;
+				}
+				case "wz":
+				{
+					_mime = ApplicationXWingz;
+					return true;
+				}
+				case "wkz":
+				{
+					_mime = ApplicationXWingz;
+					return true;
+				}
+				case "crt":
 				{
 					_mime = ApplicationXX509CaCert;
 					return true;
 				}
-				case "crt":
+				case "der":
 				{
 					_mime = ApplicationXX509CaCert;
 					return true;
@@ -4288,19 +5104,19 @@ namespace MimeLut
 					_mime = ApplicationXencXml;
 					return true;
 				}
-				case "xhtml":
+				case "xht":
 				{
 					_mime = ApplicationXhtmlXml;
 					return true;
 				}
-				case "xht":
+				case "xhtml":
 				{
 					_mime = ApplicationXhtmlXml;
 					return true;
 				}
 				case "xml":
 				{
-					_mime = ApplicationXml;
+					_mime = TextXml;
 					return true;
 				}
 				case "xsl":
@@ -4310,7 +5126,7 @@ namespace MimeLut
 				}
 				case "dtd":
 				{
-					_mime = ApplicationXmlDtd;
+					_mime = TextXml;
 					return true;
 				}
 				case "xop":
@@ -4343,12 +5159,12 @@ namespace MimeLut
 					_mime = ApplicationXvXml;
 					return true;
 				}
-				case "xvml":
+				case "xvm":
 				{
 					_mime = ApplicationXvXml;
 					return true;
 				}
-				case "xvm":
+				case "xvml":
 				{
 					_mime = ApplicationXvXml;
 					return true;
@@ -4373,6 +5189,16 @@ namespace MimeLut
 					_mime = AudioAdpcm;
 					return true;
 				}
+				case "amr":
+				{
+					_mime = AudioAMR;
+					return true;
+				}
+				case "awb":
+				{
+					_mime = AudioAMRWB;
+					return true;
+				}
 				case "au":
 				{
 					_mime = AudioBasic;
@@ -4383,19 +5209,29 @@ namespace MimeLut
 					_mime = AudioBasic;
 					return true;
 				}
-				case "mid":
+				case "evc":
 				{
-					_mime = AudioMidi;
+					_mime = AudioEVRC;
 					return true;
 				}
-				case "midi":
+				case "l16":
 				{
-					_mime = AudioMidi;
+					_mime = AudioL16;
 					return true;
 				}
 				case "kar":
 				{
-					_mime = AudioMidi;
+					_mime = AudioXMidi;
+					return true;
+				}
+				case "mid":
+				{
+					_mime = AudioXMidi;
+					return true;
+				}
+				case "midi":
+				{
+					_mime = AudioXMidi;
 					return true;
 				}
 				case "rmi":
@@ -4403,7 +5239,12 @@ namespace MimeLut
 					_mime = AudioMidi;
 					return true;
 				}
-				case "m4a":
+				case "f4a":
+				{
+					_mime = AudioMp4;
+					return true;
+				}
+				case "f4b":
 				{
 					_mime = AudioMp4;
 					return true;
@@ -4413,6 +5254,11 @@ namespace MimeLut
 					_mime = AudioMp4;
 					return true;
 				}
+				case "m4a":
+				{
+					_mime = AudioMP4ALATM;
+					return true;
+				}
 				case "mpga":
 				{
 					_mime = AudioMpeg;
@@ -4420,12 +5266,7 @@ namespace MimeLut
 				}
 				case "mp2":
 				{
-					_mime = AudioMpeg;
-					return true;
-				}
-				case "mp2a":
-				{
-					_mime = AudioMpeg;
+					_mime = VideoMpeg;
 					return true;
 				}
 				case "mp3":
@@ -4443,6 +5284,11 @@ namespace MimeLut
 					_mime = AudioMpeg;
 					return true;
 				}
+				case "mp2a":
+				{
+					_mime = AudioMpeg;
+					return true;
+				}
 				case "oga":
 				{
 					_mime = AudioOgg;
@@ -4450,7 +5296,7 @@ namespace MimeLut
 				}
 				case "ogg":
 				{
-					_mime = AudioOgg;
+					_mime = VideoOgg;
 					return true;
 				}
 				case "spx":
@@ -4466,6 +5312,11 @@ namespace MimeLut
 				case "sil":
 				{
 					_mime = AudioSilk;
+					return true;
+				}
+				case "smv":
+				{
+					_mime = VideoXSmv;
 					return true;
 				}
 				case "uva":
@@ -4498,6 +5349,11 @@ namespace MimeLut
 					_mime = AudioVndDtsHd;
 					return true;
 				}
+				case "plj":
+				{
+					_mime = AudioVndEveradPlj;
+					return true;
+				}
 				case "lvp":
 				{
 					_mime = AudioVndLucentVoice;
@@ -4506,6 +5362,16 @@ namespace MimeLut
 				case "pya":
 				{
 					_mime = AudioVndMsPlayreadyMediaPya;
+					return true;
+				}
+				case "mxmf":
+				{
+					_mime = AudioVndNokiaMobileXmf;
+					return true;
+				}
+				case "vbk":
+				{
+					_mime = AudioVndNortelVbk;
 					return true;
 				}
 				case "ecelp4800":
@@ -4523,14 +5389,39 @@ namespace MimeLut
 					_mime = AudioVndNueraEcelp9600;
 					return true;
 				}
+				case "qcp":
+				{
+					_mime = AudioVndQcelp;
+					return true;
+				}
 				case "rip":
 				{
 					_mime = AudioVndRip;
 					return true;
 				}
+				case "smp3":
+				{
+					_mime = AudioVndSealedmediaSoftsealMpeg;
+					return true;
+				}
+				case "smp":
+				{
+					_mime = AudioVndSealedmediaSoftsealMpeg;
+					return true;
+				}
+				case "s1m":
+				{
+					_mime = AudioVndSealedmediaSoftsealMpeg;
+					return true;
+				}
 				case "weba":
 				{
 					_mime = AudioWebm;
+					return true;
+				}
+				case "webm":
+				{
+					_mime = VideoWebm;
 					return true;
 				}
 				case "aac":
@@ -4543,12 +5434,12 @@ namespace MimeLut
 					_mime = AudioXAiff;
 					return true;
 				}
-				case "aiff":
+				case "aifc":
 				{
 					_mime = AudioXAiff;
 					return true;
 				}
-				case "aifc":
+				case "aiff":
 				{
 					_mime = AudioXAiff;
 					return true;
@@ -4583,17 +5474,27 @@ namespace MimeLut
 					_mime = AudioXMsWma;
 					return true;
 				}
+				case "wmv":
+				{
+					_mime = VideoXMsWmv;
+					return true;
+				}
+				case "ra":
+				{
+					_mime = AudioXRealaudio;
+					return true;
+				}
 				case "ram":
 				{
 					_mime = AudioXPnRealaudio;
 					return true;
 				}
-				case "ra":
+				case "rmp":
 				{
-					_mime = AudioXPnRealaudio;
+					_mime = AudioXPnRealaudioPlugin;
 					return true;
 				}
-				case "rmp":
+				case "rpm":
 				{
 					_mime = AudioXPnRealaudioPlugin;
 					return true;
@@ -4635,37 +5536,22 @@ namespace MimeLut
 				}
 				case "xyz":
 				{
-					_mime = ChemicalXXyz;
+					_mime = XChemicalXXyz;
 					return true;
 				}
-				case "ttc":
+				case "ice":
 				{
-					_mime = FontCollection;
+					_mime = XConferenceXCooltalk;
 					return true;
 				}
-				case "otf":
+				case "dwf":
 				{
-					_mime = FontOtf;
-					return true;
-				}
-				case "ttf":
-				{
-					_mime = FontTtf;
-					return true;
-				}
-				case "woff":
-				{
-					_mime = FontWoff;
-					return true;
-				}
-				case "woff2":
-				{
-					_mime = FontWoff2;
+					_mime = ModelVndDwf;
 					return true;
 				}
 				case "bmp":
 				{
-					_mime = ImageBmp;
+					_mime = ImageXMsBmp;
 					return true;
 				}
 				case "cgm":
@@ -4688,6 +5574,16 @@ namespace MimeLut
 					_mime = ImageIef;
 					return true;
 				}
+				case "jp2":
+				{
+					_mime = ImageJp2;
+					return true;
+				}
+				case "jpg2":
+				{
+					_mime = ImageJp2;
+					return true;
+				}
 				case "jpeg":
 				{
 					_mime = ImageJpeg;
@@ -4701,6 +5597,26 @@ namespace MimeLut
 				case "jpe":
 				{
 					_mime = ImageJpeg;
+					return true;
+				}
+				case "jpm":
+				{
+					_mime = VideoJpm;
+					return true;
+				}
+				case "jpgm":
+				{
+					_mime = VideoJpm;
+					return true;
+				}
+				case "jpx":
+				{
+					_mime = ImageJpx;
+					return true;
+				}
+				case "jpf":
+				{
+					_mime = ImageJpx;
 					return true;
 				}
 				case "ktx":
@@ -4733,6 +5649,11 @@ namespace MimeLut
 					_mime = ImageSvgXml;
 					return true;
 				}
+				case "tga":
+				{
+					_mime = ImageXTga;
+					return true;
+				}
 				case "tiff":
 				{
 					_mime = ImageTiff;
@@ -4748,7 +5669,17 @@ namespace MimeLut
 					_mime = ImageVndAdobePhotoshop;
 					return true;
 				}
+				case "uvg":
+				{
+					_mime = ImageVndDeceGraphic;
+					return true;
+				}
 				case "uvi":
+				{
+					_mime = ImageVndDeceGraphic;
+					return true;
+				}
+				case "uvvg":
 				{
 					_mime = ImageVndDeceGraphic;
 					return true;
@@ -4758,14 +5689,9 @@ namespace MimeLut
 					_mime = ImageVndDeceGraphic;
 					return true;
 				}
-				case "uvg":
+				case "dgn":
 				{
-					_mime = ImageVndDeceGraphic;
-					return true;
-				}
-				case "uvvg":
-				{
-					_mime = ImageVndDeceGraphic;
+					_mime = ImageXVndDgn;
 					return true;
 				}
 				case "djvu":
@@ -4818,6 +5744,16 @@ namespace MimeLut
 					_mime = ImageVndFujixeroxEdmicsRlc;
 					return true;
 				}
+				case "pgb":
+				{
+					_mime = ImageVndGlobalgraphicsPgb;
+					return true;
+				}
+				case "ico":
+				{
+					_mime = ImageXIcon;
+					return true;
+				}
 				case "mdi":
 				{
 					_mime = ImageVndMsModi;
@@ -4863,12 +5799,17 @@ namespace MimeLut
 					_mime = ImageXCmx;
 					return true;
 				}
-				case "fh":
+				case "xcfbz2":
 				{
-					_mime = ImageXFreehand;
+					_mime = ImageXCompressedXcf;
 					return true;
 				}
-				case "fhc":
+				case "xcfgz":
+				{
+					_mime = ImageXCompressedXcf;
+					return true;
+				}
+				case "fh":
 				{
 					_mime = ImageXFreehand;
 					return true;
@@ -4888,9 +5829,14 @@ namespace MimeLut
 					_mime = ImageXFreehand;
 					return true;
 				}
-				case "ico":
+				case "fhc":
 				{
-					_mime = ImageXIcon;
+					_mime = ImageXFreehand;
+					return true;
+				}
+				case "3fr":
+				{
+					_mime = ImageXHasselblad3fr;
 					return true;
 				}
 				case "sid":
@@ -4898,17 +5844,27 @@ namespace MimeLut
 					_mime = ImageXMrsidImage;
 					return true;
 				}
+				case "psp":
+				{
+					_mime = ImageXPaintshoppro;
+					return true;
+				}
+				case "pspimage":
+				{
+					_mime = ImageXPaintshoppro;
+					return true;
+				}
 				case "pcx":
 				{
 					_mime = ImageXPcx;
 					return true;
 				}
-				case "pic":
+				case "pct":
 				{
 					_mime = ImageXPict;
 					return true;
 				}
-				case "pct":
+				case "pic":
 				{
 					_mime = ImageXPict;
 					return true;
@@ -4938,14 +5894,14 @@ namespace MimeLut
 					_mime = ImageXRgb;
 					return true;
 				}
-				case "tga":
-				{
-					_mime = ImageXTga;
-					return true;
-				}
 				case "xbm":
 				{
-					_mime = ImageXXbitmap;
+					_mime = ImageXXbm;
+					return true;
+				}
+				case "xcf":
+				{
+					_mime = ImageXXcf;
 					return true;
 				}
 				case "xpm":
@@ -4998,11 +5954,6 @@ namespace MimeLut
 					_mime = ModelVndColladaXml;
 					return true;
 				}
-				case "dwf":
-				{
-					_mime = ModelVndDwf;
-					return true;
-				}
 				case "gdl":
 				{
 					_mime = ModelVndGdl;
@@ -5015,7 +5966,27 @@ namespace MimeLut
 				}
 				case "mts":
 				{
-					_mime = ModelVndMts;
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "x_b":
+				{
+					_mime = ModelVndParasolidTransmitBinary;
+					return true;
+				}
+				case "xmt_bin":
+				{
+					_mime = ModelVndParasolidTransmitBinary;
+					return true;
+				}
+				case "x_t":
+				{
+					_mime = ModelVndParasolidTransmitText;
+					return true;
+				}
+				case "xmt_txt":
+				{
+					_mime = ModelVndParasolidTransmitText;
 					return true;
 				}
 				case "vtu":
@@ -5025,12 +5996,12 @@ namespace MimeLut
 				}
 				case "wrl":
 				{
-					_mime = ModelVrml;
+					_mime = XWorldXVrml;
 					return true;
 				}
 				case "vrml":
 				{
-					_mime = ModelVrml;
+					_mime = XWorldXVrml;
 					return true;
 				}
 				case "x3db":
@@ -5068,6 +6039,11 @@ namespace MimeLut
 					_mime = TextCacheManifest;
 					return true;
 				}
+				case "manifest":
+				{
+					_mime = TextCacheManifest;
+					return true;
+				}
 				case "ics":
 				{
 					_mime = TextCalendar;
@@ -5078,14 +6054,14 @@ namespace MimeLut
 					_mime = TextCalendar;
 					return true;
 				}
-				case "css":
-				{
-					_mime = TextCss;
-					return true;
-				}
 				case "csv":
 				{
 					_mime = TextCsv;
+					return true;
+				}
+				case "css":
+				{
+					_mime = TextCss;
 					return true;
 				}
 				case "html":
@@ -5098,6 +6074,36 @@ namespace MimeLut
 					_mime = TextHtml;
 					return true;
 				}
+				case "htmlx":
+				{
+					_mime = TextHtml;
+					return true;
+				}
+				case "shtml":
+				{
+					_mime = TextHtml;
+					return true;
+				}
+				case "htx":
+				{
+					_mime = TextHtml;
+					return true;
+				}
+				case "markdown":
+				{
+					_mime = TextMarkdown;
+					return true;
+				}
+				case "md":
+				{
+					_mime = TextMarkdown;
+					return true;
+				}
+				case "mkd":
+				{
+					_mime = TextMarkdown;
+					return true;
+				}
 				case "n3":
 				{
 					_mime = TextN3;
@@ -5108,7 +6114,37 @@ namespace MimeLut
 					_mime = TextPlain;
 					return true;
 				}
-				case "text":
+				case "c":
+				{
+					_mime = TextXC;
+					return true;
+				}
+				case "cc":
+				{
+					_mime = TextXC;
+					return true;
+				}
+				case "h":
+				{
+					_mime = TextXC;
+					return true;
+				}
+				case "hh":
+				{
+					_mime = TextXC;
+					return true;
+				}
+				case "cpp":
+				{
+					_mime = TextXC;
+					return true;
+				}
+				case "hpp":
+				{
+					_mime = TextPlain;
+					return true;
+				}
+				case "dat":
 				{
 					_mime = TextPlain;
 					return true;
@@ -5123,6 +6159,11 @@ namespace MimeLut
 					_mime = TextPlain;
 					return true;
 				}
+				case "in":
+				{
+					_mime = TextPlain;
+					return true;
+				}
 				case "list":
 				{
 					_mime = TextPlain;
@@ -5133,7 +6174,17 @@ namespace MimeLut
 					_mime = TextPlain;
 					return true;
 				}
-				case "in":
+				case "rst":
+				{
+					_mime = TextPrsFallensteinRst;
+					return true;
+				}
+				case "text":
+				{
+					_mime = TextPlain;
+					return true;
+				}
+				case "textile":
 				{
 					_mime = TextPlain;
 					return true;
@@ -5148,11 +6199,6 @@ namespace MimeLut
 					_mime = TextRichtext;
 					return true;
 				}
-				case "sgml":
-				{
-					_mime = TextSgml;
-					return true;
-				}
 				case "sgm":
 				{
 					_mime = TextSgml;
@@ -5163,32 +6209,7 @@ namespace MimeLut
 					_mime = TextTabSeparatedValues;
 					return true;
 				}
-				case "t":
-				{
-					_mime = TextTroff;
-					return true;
-				}
-				case "tr":
-				{
-					_mime = TextTroff;
-					return true;
-				}
-				case "roff":
-				{
-					_mime = TextTroff;
-					return true;
-				}
-				case "man":
-				{
-					_mime = TextTroff;
-					return true;
-				}
-				case "me":
-				{
-					_mime = TextTroff;
-					return true;
-				}
-				case "ms":
+				case "troff":
 				{
 					_mime = TextTroff;
 					return true;
@@ -5216,11 +6237,6 @@ namespace MimeLut
 				case "vcard":
 				{
 					_mime = TextVcard;
-					return true;
-				}
-				case "curl":
-				{
-					_mime = TextVndCurl;
 					return true;
 				}
 				case "dcurl":
@@ -5263,9 +6279,24 @@ namespace MimeLut
 					_mime = TextVndIn3dSpot;
 					return true;
 				}
+				case "ccc":
+				{
+					_mime = TextVndNet2phoneCommcenterCommand;
+					return true;
+				}
 				case "jad":
 				{
 					_mime = TextVndSunJ2meAppDescriptor;
+					return true;
+				}
+				case "si":
+				{
+					_mime = TextVndWapSi;
+					return true;
+				}
+				case "sl":
+				{
+					_mime = TextVndWapSl;
 					return true;
 				}
 				case "wml":
@@ -5278,42 +6309,17 @@ namespace MimeLut
 					_mime = TextVndWapWmlscript;
 					return true;
 				}
-				case "s":
-				{
-					_mime = TextXAsm;
-					return true;
-				}
 				case "asm":
 				{
 					_mime = TextXAsm;
 					return true;
 				}
-				case "c":
+				case "s":
 				{
-					_mime = TextXC;
-					return true;
-				}
-				case "cc":
-				{
-					_mime = TextXC;
+					_mime = TextXAsm;
 					return true;
 				}
 				case "cxx":
-				{
-					_mime = TextXC;
-					return true;
-				}
-				case "cpp":
-				{
-					_mime = TextXC;
-					return true;
-				}
-				case "h":
-				{
-					_mime = TextXC;
-					return true;
-				}
-				case "hh":
 				{
 					_mime = TextXC;
 					return true;
@@ -5323,12 +6329,17 @@ namespace MimeLut
 					_mime = TextXC;
 					return true;
 				}
-				case "f":
+				case "coffee":
 				{
-					_mime = TextXFortran;
+					_mime = TextXCoffescript;
 					return true;
 				}
-				case "for":
+				case "htc":
+				{
+					_mime = TextXComponent;
+					return true;
+				}
+				case "f":
 				{
 					_mime = TextXFortran;
 					return true;
@@ -5339,6 +6350,11 @@ namespace MimeLut
 					return true;
 				}
 				case "f90":
+				{
+					_mime = TextXFortran;
+					return true;
+				}
+				case "for":
 				{
 					_mime = TextXFortran;
 					return true;
@@ -5393,7 +6409,27 @@ namespace MimeLut
 					_mime = TextXVcard;
 					return true;
 				}
+				case "yaml":
+				{
+					_mime = TextXYaml;
+					return true;
+				}
+				case "yml":
+				{
+					_mime = TextXYaml;
+					return true;
+				}
+				case "xsd":
+				{
+					_mime = TextXml;
+					return true;
+				}
 				case "3gp":
+				{
+					_mime = Video3gpp;
+					return true;
+				}
+				case "3gpp":
 				{
 					_mime = Video3gpp;
 					return true;
@@ -5401,6 +6437,26 @@ namespace MimeLut
 				case "3g2":
 				{
 					_mime = Video3gpp2;
+					return true;
+				}
+				case "3gpp2":
+				{
+					_mime = Video3gpp2;
+					return true;
+				}
+				case "dl":
+				{
+					_mime = VideoXDl;
+					return true;
+				}
+				case "dv":
+				{
+					_mime = VideoXDv;
+					return true;
+				}
+				case "gl":
+				{
+					_mime = VideoXGl;
 					return true;
 				}
 				case "h261":
@@ -5420,30 +6476,55 @@ namespace MimeLut
 				}
 				case "jpgv":
 				{
-					_mime = VideoJpeg;
-					return true;
-				}
-				case "jpm":
-				{
-					_mime = VideoJpm;
-					return true;
-				}
-				case "jpgm":
-				{
-					_mime = VideoJpm;
+					_mime = VideoJPEG;
 					return true;
 				}
 				case "mj2":
 				{
-					_mime = VideoMj2;
+					_mime = VideoMJ2;
 					return true;
 				}
 				case "mjp2":
 				{
-					_mime = VideoMj2;
+					_mime = VideoMJ2;
 					return true;
 				}
-				case "mp4":
+				case "ts":
+				{
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "m2ts":
+				{
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "cpi":
+				{
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "clpi":
+				{
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "mpl":
+				{
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "mpls":
+				{
+					_mime = VideoMP2T;
+					return true;
+				}
+				case "f4v":
+				{
+					_mime = VideoXF4v;
+					return true;
+				}
+				case "f4p":
 				{
 					_mime = VideoMp4;
 					return true;
@@ -5453,9 +6534,14 @@ namespace MimeLut
 					_mime = VideoMp4;
 					return true;
 				}
-				case "mpg4":
+				case "mp3g":
 				{
-					_mime = VideoMp4;
+					_mime = VideoMpeg;
+					return true;
+				}
+				case "mpe":
+				{
+					_mime = VideoMpeg;
 					return true;
 				}
 				case "mpeg":
@@ -5464,11 +6550,6 @@ namespace MimeLut
 					return true;
 				}
 				case "mpg":
-				{
-					_mime = VideoMpeg;
-					return true;
-				}
-				case "mpe":
 				{
 					_mime = VideoMpeg;
 					return true;
@@ -5573,6 +6654,56 @@ namespace MimeLut
 					_mime = VideoVndMsPlayreadyMediaPyv;
 					return true;
 				}
+				case "nim":
+				{
+					_mime = VideoVndNokiaInterleavedMultimedia;
+					return true;
+				}
+				case "m4v":
+				{
+					_mime = VideoXM4v;
+					return true;
+				}
+				case "s11":
+				{
+					_mime = VideoVndSealedMpeg1;
+					return true;
+				}
+				case "smpg":
+				{
+					_mime = VideoVndSealedMpeg4;
+					return true;
+				}
+				case "s14":
+				{
+					_mime = VideoVndSealedMpeg4;
+					return true;
+				}
+				case "sswf":
+				{
+					_mime = VideoVndSealedSwf;
+					return true;
+				}
+				case "ssw":
+				{
+					_mime = VideoVndSealedSwf;
+					return true;
+				}
+				case "smov":
+				{
+					_mime = VideoVndSealedmediaSoftsealMov;
+					return true;
+				}
+				case "smo":
+				{
+					_mime = VideoVndSealedmediaSoftsealMov;
+					return true;
+				}
+				case "s1q":
+				{
+					_mime = VideoVndSealedmediaSoftsealMov;
+					return true;
+				}
 				case "uvu":
 				{
 					_mime = VideoVndUvvuMp4;
@@ -5588,14 +6719,9 @@ namespace MimeLut
 					_mime = VideoVndVivo;
 					return true;
 				}
-				case "webm":
+				case "vivo":
 				{
-					_mime = VideoWebm;
-					return true;
-				}
-				case "f4v":
-				{
-					_mime = VideoXF4v;
+					_mime = VideoVndVivo;
 					return true;
 				}
 				case "fli":
@@ -5608,14 +6734,9 @@ namespace MimeLut
 					_mime = VideoXFlv;
 					return true;
 				}
-				case "m4v":
+				case "ivf":
 				{
-					_mime = VideoXM4v;
-					return true;
-				}
-				case "mkv":
-				{
-					_mime = VideoXMatroska;
+					_mime = VideoXIvf;
 					return true;
 				}
 				case "mk3d":
@@ -5628,14 +6749,24 @@ namespace MimeLut
 					_mime = VideoXMatroska;
 					return true;
 				}
+				case "mkv":
+				{
+					_mime = VideoXMatroska;
+					return true;
+				}
 				case "mng":
 				{
 					_mime = VideoXMng;
 					return true;
 				}
-				case "asf":
+				case "mjpg":
 				{
-					_mime = VideoXMsAsf;
+					_mime = VideoXMotionJpeg;
+					return true;
+				}
+				case "mjpeg":
+				{
+					_mime = VideoXMotionJpeg;
 					return true;
 				}
 				case "asx":
@@ -5651,11 +6782,6 @@ namespace MimeLut
 				case "wm":
 				{
 					_mime = VideoXMsWm;
-					return true;
-				}
-				case "wmv":
-				{
-					_mime = VideoXMsWmv;
 					return true;
 				}
 				case "wmx":
@@ -5676,16 +6802,6 @@ namespace MimeLut
 				case "movie":
 				{
 					_mime = VideoXSgiMovie;
-					return true;
-				}
-				case "smv":
-				{
-					_mime = VideoXSmv;
-					return true;
-				}
-				case "ice":
-				{
-					_mime = XConferenceXCooltalk;
 					return true;
 				}
 			}

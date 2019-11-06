@@ -3,12 +3,12 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text;
+using YamlDotNet.Serialization;
 
 namespace MimeLut.Gen
 {
    class Program
    {
-      private const string MimeDefFileName = "mime.types.yaml";
       private static readonly char[] SymbolsToReplacePropertyName = { '-', '.', '+', '/' };
       class Gen
       {
@@ -79,61 +79,38 @@ namespace MimeLut.Gen
          var home = Path.GetDirectoryName(assembly.Location);
          Console.WriteLine($"Home: {home}");
 
-         var mimeDefPath = Path.Combine(home, MimeDefFileName);
-
-         info();
-         Console.WriteLine($"Reading: {mimeDefPath}");
-         restore();
-
-         var lines = File.ReadAllLines(mimeDefPath);
-
-         info();
-         Console.WriteLine($"Parsing: {mimeDefPath}");
-         restore();
 
          var lut = new Dictionary<string, string[]>();
          var extLut = new Dictionary<string, string>();
-         foreach (var line in lines)
+
+         var deserializer = new DeserializerBuilder()
+            .WithTagMapping("!ruby/object:MIME::Type", typeof(MimeType))
+            .Build();
+         foreach (var file in Directory.EnumerateFiles(Path.Combine(home, "types"), "*.yaml"))
          {
-            var s = line.Trim(' ');
-            if (string.IsNullOrEmpty(s))
-               continue;
+            info();
+            Console.WriteLine($"Reading: {file}");
+            restore();
 
-            if (s.StartsWith("#"))
+            var types = deserializer.Deserialize<MimeType[]>(File.ReadAllText(file));
+            foreach (var type in types)
             {
-               skipping();
-               Console.WriteLine($"Skipping comment: {s}");
+               if (!(type.Extensions?.Length > 0)) 
+                  continue;
+
+               lut.Add(type.ContentType, type.Extensions);
+               foreach (var e in type.Extensions)
+                  extLut[e] = type.ContentType;
+               found();
+               Console.WriteLine($"Found '{type.ContentType}' -> '{string.Join(",", type.Extensions)}");
                restore();
-               continue;
             }
-
-            var index = s.IndexOf('\t');
-            string mime;
-            string[] ext = null;
-            if (index > 0)
-            {
-               mime = s.Substring(0, index).Trim(' ','\t');
-               var extLine = s.Substring(index + 1).Trim(' ', '\t'); ;
-               ext = extLine.Split(new[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
-               foreach (var e in ext)
-                  extLut[e] = mime;
-            }
-            else
-               mime = s.Trim(' ', '\t');
-
-            mime = mime.Trim(' ');
-            lut.Add(mime, ext);
-
-            found();
-            Console.WriteLine(ext == null
-               ? $"Found '{mime}'"
-               : $"Found '{mime}' -> '{string.Join(",", ext)}");
+            info();
+            Console.WriteLine($"Parsed: {file}");
             restore();
          }
 
-         info();
-         Console.WriteLine($"Parsed: {mimeDefPath}");
-         restore();
+
 
          info();
          Console.WriteLine($"Generating C#...");
